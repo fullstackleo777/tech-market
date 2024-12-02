@@ -1,0 +1,100 @@
+ID,Business Size,Service Category,Product/Service,Description,Delivery Method,Team Size,Estimated Delivery Time,Modifiers,Price ($),Price Range (USD),Unit
+1,,Brand Identity,Logo Design (Basic),,Digital Delivery,1,Under 1 hour,,,,
+2,,Brand Identity,Logo Design (Detailed),,Digital Delivery,1,24 hours,,,,
+3,,Mobile/Web Development,Landing Page,,Digital Delivery,2,2-3 business days,,,,
+4,,Custom Prints,Business Cards (100 pieces),,Physical Shipment,1,24 hours,,,,
+5,,Custom Prints,Event Banners,,Physical Shipment,2,2-3 business days,,,,
+6,,Computer Programming,Simple Script,,Digital Delivery,1,24 hours,,,,
+7,,Computer Programming,API Integration,,Digital Delivery,3,2-3 business days,,,,
+8,,Brand Identity,Full Brand Kit,,Digital Delivery,10,2-3 business days,,,,
+9,,Mobile/Web Development,E-commerce Website,,Digital Delivery,10,2-3 business days,,,,
+,,,,,,,,,,,
+10,,Writing,Blog Writing,"Generate ideas, outlines, and content for blogs. Offer writing services to clients.",,,,,30,,Hour
+11,,Brand Identity,Social Media Content,Create engaging posts for social media platforms. Provide regular content updates.,,,,,50,,Hour
+12,,Writing,Copywriting,"Develop marketing copy for websites, emails, and advertisements.",,,,,50,,Hour
+13,,Writing,Editing and Proofreading,Assist with editing and proofreading tasks to ensure high-quality content.,,,,,30,,Hour
+14,,Writing,Transcription Services,Offer transcription services for audio and video content.,,,,,30,,Hour
+15,,Writing,Translation Services,Help translate text between English and Spanish language for various purposes.,,,,,30,,Hour
+16,,Support,Customer Support,Provide customer support services by handling queries and responses.,,,,,50,,Hour
+17,,Assistance,Administrative Tasks,"Assist with tasks like email management, scheduling, and data entry.",,,,,50,,Hour
+18,,Education,Online Tutoring,"Create lesson plans, study guides, and answer questions for tutoring sessions.",,,,,100,,Hour
+19,,Education,Course Creation,Develop online courses and educational content for various topics.,,,,,100,,Hour
+20,,Research,Market Research,Conduct market research and gather insights for business strategies.,,,,,100,,Hour
+21,,Data,Data Analysis,Analyze data and generate reports for business decision-making.,,,,,100,,Hour
+22,,Writing,Story Writing,"Write stories, novels, or screenplays. Offer ghostwriting services.",,,,,30,,Hour
+23,,Writing,Game Development,"Create storylines, dialogues, and game content for game development.",,,,,100,,Hour
+24,,Consulting,Business Consulting,Provide insights and strategies for businesses based on industry research.,,,,,200,,Hour
+25,,Support,Tech Support,Offer tech support and troubleshooting assistance.,,,,,100,,Hour
+26,,Writing,E-books and Guides,"Create and sell e-books, guides, and templates on various topics.",,,,,30,,Hour
+27,,Subscriptions,Subscription Services,Offer subscription-based services for exclusive content and newsletters.,,,,,50,,Hour
+28,,Brand Identity,Content Creation for Affiliates,"Write reviews, comparisons, and promotional content for affiliate marketing.",,,,,50,,Hour
+29,,Programming,Custom Chatbots,Develop and sell customized chatbot solutions for businesses.,,,,,100,,Hour
+30,,Mobile/Web Development,SEO Content,Write SEO-optimized content to improve website rankings.,,,,,50,,Hour
+31,,Writing,Ad Copy,Create effective ad copy for online advertisements.,,,,,30,,Hour
+,,,,,,,,,,,
+32,Small,Web3,Web3 Consulting and Education,,,,,,,"1,000 - 5,000",Project
+33,Small,Web3,Smart Contract Development,,,,,,,"2,000 - 10,000",Project
+34,Small,Web3,NFT Integration,,,,,,,"3,000 - 15,000",Project
+35,Small,Web3,Decentralized Web Hosting,,,,,,,"500 - 3,000",Project
+36,Small,Web3,Blockchain-Based Payment Integration,,,,,,,"1,500 - 7,000",Project
+37,Medium,Web3,Custom Blockchain Solutions,,,,,,,"10,000 - 50,000",Project
+38,Medium,Web3,Decentralized Applications (DApps),,,,,,,"15,000 - 75,000",Project
+39,Medium,Web3,Tokenization Services,,,,,,,"8,000 - 30,000",Project
+40,Medium,Web3,Identity and Data Management Solutions,,,,,,,"10,000 - 40,000",Project
+41,Medium,Web3,Cross-Chain Solutions,,,,,,,"20,000 - 100,000",Project
+42,Large,Web3,Enterprise Blockchain Integration,,,,,,,"50,000 - 250,000",Project
+43,Large,Web3,DeFi Integration,,,,,,,"30,000 - 150,000",Project
+44,Large,Web3,Supply Chain Transparency,,,,,,,"75,000 - 300,000",Project
+45,Large,Web3,Corporate Governance Solutions,,,,,,,"40,000 - 200,000",Project
+46,Large,Web3,Security Token Offerings (STO),,,,,,,"50,000 - 300,000",Project
+47,Cross-Business,Web3,Web3 Security Audits,,,,,,,"5,000 - 25,000",Project
+48,Cross-Business,Web3,Interoperability Solutions,,,,,,,"20,000 - 150,000",Project
+49,Cross-Business,Web3,Web3 Infrastructure Consulting,,,,,,,"10,000 - 50,000",Project
+50,Cross-Business,Web3,Regulatory Compliance,,,,,,,"15,000 - 75,000",Project
+,,,,,,,,,,,
+51,Small Business,,Basic Website Setup and Customization,"Setting up a WordPress site with essential plugins and a customized theme; Designing a simple, user-friendly layout that reflects the business’s brand; Creating basic pages (Home, About, Services, Contact)",,,,,,,
+52,Small Business,,E-Commerce Integration,Setting up WooCommerce or other e-commerce plugins; Configuring payment gateways and product pages; Training the client on how to manage their online store,,,,,,,
+53,Small Business,,Website Maintenance and Support,"Regular updates for WordPress core, themes, and plugins; Backup and restore services; Security monitoring and malware removal",,,,,,,
+54,Small Business,,SEO Optimization,"Basic on-page SEO setup (title tags, meta descriptions, alt text); Installation and configuration of SEO plugins like Yoast SEO; Local SEO strategies for small businesses targeting local customers",,,,,,,
+55,Small Business,,Content Management and Blog Setup,Setting up a blog section and training on content management; Creating and scheduling blog posts; Ensuring the blog is optimized for SEO,,,,,,,
+56,Small Business,,Speed Optimization,"Implementing caching solutions; Image optimization; Minimizing CSS, JavaScript, and HTML",,,,,,,
+57,Medium Business,,Advanced Customization and Theme Development,"Developing custom themes tailored to the brand; Integrating advanced features like custom post types, fields, and taxonomies",,,,,,,
+58,Medium Business,,Advanced E-Commerce Solutions,Multi-currency and multi-language support; Integration with CRM and ERP systems; Subscription-based services and membership sites,,,,,,,
+59,Medium Business,,Custom Plugin Development,Developing custom plugins to add unique functionality; Modifying existing plugins to suit specific business needs,,,,,,,
+60,Medium Business,,Content Strategy and Management,"Developing a content strategy to drive engagement and conversions; Implementing content marketing tactics, including blogging, video, and social media integration",,,,,,,
+61,Medium Business,,Analytics and Conversion Optimization,"Setting up Google Analytics, heatmaps, and conversion tracking; A/B testing of pages to improve conversion rates; Implementing user feedback mechanisms like surveys and reviews",,,,,,,
+62,Medium Business,,Ongoing Website Maintenance and Performance Optimization,Regular performance audits and speed enhancements; Proactive security measures and monitoring; Custom reports and analytics review sessions,,,,,,,
+63,Large Business,,Enterprise-Level WordPress Development,"Building scalable WordPress multisite networks; Integrating WordPress with enterprise-level tools and platforms (CRM, ERP, etc.); Developing custom APIs for integration with other systems",,,,,,,
+64,Large Business,,Custom Theme and Plugin Development,"Designing highly customized, brand-specific themes; Developing enterprise-grade plugins with complex functionalities; Continuous development and iterative updates based on business needs",,,,,,,
+65,Large Business,,Advanced E-Commerce and Marketplace Solutions,"Creating large-scale online stores with hundreds or thousands of products; Developing custom checkout processes, user roles, and permission management; Integration with third-party logistics and inventory management systems",,,,,,,
+66,Large Business,,Comprehensive SEO and Digital Marketing,"Advanced SEO strategies including technical SEO audits, backlinking, and content optimization; Implementing large-scale digital marketing campaigns; Managing and optimizing PPC campaigns and social media ads",,,,,,,
+67,Large Business,,Security and Compliance Services,"Implementing enterprise-level security protocols; Ensuring compliance with industry regulations (GDPR, CCPA, etc.); Regular security audits and penetration testing",,,,,,,
+68,Large Business,,High Availability and Performance Optimization,"Implementing CDN, advanced caching, and database optimization; Setting up and managing redundant hosting and disaster recovery plans; Ensuring the site can handle high traffic with minimal downtime",,,,,,,
+69,Large Business,,Custom Reporting and Data Analysis,Developing custom dashboards and reports for business intelligence; Integrating WordPress data with other business systems for holistic insights; Ongoing data analysis to inform strategy and decision-making,,,,,,,
+70,All Business Sizes,,Training and Consulting,Providing WordPress training for in-house teams; Offering consultation services on best practices and digital strategy,,,,,,,
+71,All Business Sizes,,Website Redesign and Rebranding,Redesigning existing websites to align with new branding or market shifts; Improving user experience (UX) and user interface (UI),,,,,,,
+72,All Business Sizes,,Migration Services,Migrating websites to WordPress from other platforms; Transferring WordPress sites between hosting providers without downtime,,,,,,,
+73,All Business Sizes,,Accessibility and Usability Enhancements,Ensuring websites meet accessibility standards (WCAG 2.1); Conducting usability testing and making necessary adjustments,,,,,,,
+,,,,,,,,,,,
+74,Small Business,,Basic Website Development,"Creating a simple, responsive website using HTML, CSS, and JavaScript; Developing a user-friendly interface tailored to the brand; Setting up essential pages like Home, About, Services, and Contact",,,,"Custom Design vs. Template, Additional Pages, Interactive Elements",,"$3,000 - $8,000",
+75,Small Business,,E-Commerce Development,"Building an online store with platforms like Shopify, WooCommerce, or Magento; Setting up payment gateways and product management; Training on store management and inventory tracking",,,,"Number of Products, Custom Checkout Processes, Integration with Third-Party Systems",,"$5,000 - $20,000",
+76,Small Business,,Website Maintenance and Support,Regular updates for the website’s backend and frontend technologies. Performing backups and ensuring quick recovery options.  Monitoring security and fixing vulnerabilities. ,,,,"Frequency of Updates, Level of Support, Backup Services",,"$500 - $2,000 per month",
+77,Small Business,,SEO and Online Presence Optimization,Implementing basic on-page SEO strategies. Setting up Google My Business for local search visibility. Integrating social media and managing basic online marketing campaigns.,,,,"Content Creation, Link Building, Geographical Targeting",,"$300 - $1,600 per month",
+78,Small Business,,Content Management and Blogging,Setting up a CMS like WordPress or Joomla. Training on content creation and management. Ensuring the blog is optimized for SEO and social sharing.,,,,"Frequency of Posts, Content Length and Depth, Editorial Calendar Management",,"$2,000 - $10,000 for setup, $500 - $2,000 per month for ongoing management",
+79,Small Business,,Performance Optimization,Optimizing website speed by compressing images and code. Implementing caching solutions. Ensuring the website performs well on mobile devices.,,,,"Current Site Performance, Hosting Environment, Traffic Levels",,"$1,000 - $5,000 one-time cost, plus ongoing support fees",
+80,Medium Business,,Custom Web Application Development,"Developing custom web applications tailored to business needs; Implementing advanced features such as user accounts, dashboards, and data processing; Integrating APIs and third-party services",,,,"Complexity of Business Logic, User Roles and Permissions, Scalability Requirements",,"$10,000 - $75,000+",
+81,Medium Business,,Advanced E-Commerce Solutions,Creating sophisticated e-commerce platforms with custom features. Developing multi-vendor marketplaces and subscription models. Integrating CRM and inventory management systems.,,,,"Subscription Models, Inventory and Order Management, Custom Analytics",,"$20,000 - $40,000",
+82,Medium Business,,UI/UX Design and Development,Designing and developing intuitive user interfaces. Conducting user experience (UX) research and testing. Implementing design systems and ensuring brand consistency.,,,,"Number of Iterations, User Testing, Accessibility Compliance",,"$5,000 - $15,000+",
+83,Medium Business,,Content Strategy and Marketing Integration,Creating a comprehensive content strategy that drives engagement. Integrating content marketing with social media and email marketing campaigns. Using analytics to optimize content performance.,,,,"Multilingual Content, Advanced Analytics Integration, Cross-Platform Campaigns",,"$5,000 - $20,000 for initial setup; ongoing management costs vary",
+84,Medium Business,,Web Security and Compliance,"Implementing advanced security protocols like SSL, firewalls, regular audits, and ensuring compliance with regulations like GDPR",,,,"Level of Security, Compliance Standards, Incident Response Planning",,"$3,000 - $10,000+",
+85,Medium Business,,Ongoing Support and Performance Monitoring,Providing continuous support for website enhancements and fixes. Regular performance audits and optimizations. Offering detailed reporting and insights on website traffic and user behavior.,,,,"Proactive Monitoring, Custom Reporting, Dedicated Support Teams",,"$1,500 - $5,000 per month",
+86,Large Business,,Enterprise-Level Web Development,"Building large-scale web platforms with scalable architecture; Implementing enterprise-grade solutions like microservices, cloud integration, and load balancing",,,,"Customization Level, Infrastructure Requirements, Global Reach",,"$50,000 - $150,000+",
+87,Large Business,,Advanced Integration and API Development,Developing custom APIs for integration with other enterprise systems. Ensuring seamless data flow and synchronization.,,,,"Number of Integrations, Real-Time Data, Custom Middleware",,"$20,000 - $75,000+",
+88,Large Business,,Data Analytics and Business Intelligence,"Setting up advanced analytics tools, custom dashboards, and integrating with big data solutions for predictive analysis",,,,"Big Data Integration, Custom Reporting, AI Integration",,"$15,000 - $50,000+",
+89,Large Business,,Security and Risk Management,"Implementing high-level security measures including DDoS protection, encryption, and regular penetration testing",,,,"Incident Response, Compliance Audits, Data Encryption",,"$10,000 - $30,000+",
+90,Large Business,,Performance and Scalability Optimization,"Ensuring high availability and scalability through load balancing, CDN integration, and database optimization",,,,"Traffic Management, Global CDN Integration, Redundant Systems",,"$5,000 - $25,000+",
+91,Large Business,,Custom Software and Application Development,Developing custom software solutions tailored to specific business needs. Creating complex web applications with advanced functionality. Providing ongoing support and iterative improvements.,,,,"Feature Complexity, Scalability Requirements, Ongoing Support",,"$30,000 - $100,000+",
+92,All Business Sizes,,Consulting and Strategy Development,Offering consulting services for digital transformation and online strategy. Helping businesses choose the right technologies and platforms. Providing guidance on best practices in web development.,,,,"Industry Specialization, Long-Term Engagement, Strategic Implementation",,$100 - $250 per hour,
+93,All Business Sizes,,Website Redesign and Optimization,Redesigning existing websites to improve performance and user experience. Updating designs to reflect current trends and branding. Conducting usability testing and implementing user feedback.,,,,"Scope of Redesign, User Feedback Integration, Brand Consistency",,"$5,000 - $20,000+",
+94,All Business Sizes,,Migration and Platform Transition,Migrating websites or applications to new platforms or hosting providers. Ensuring a smooth transition with minimal downtime. Handling data migration and reconfiguration of services.,,,,"Size and Complexity of Site, Downtime Minimization, Data Integrity",,"$3,000 - $10,000",
+95,All Business Sizes,,Accessibility and Compliance,"Ensuring websites meet accessibility standards (WCAG, ADA); Making websites usable for people with disabilities; Conducting compliance audits and implementing necessary changes",,,,"Level of Compliance, Ongoing Maintenance, User Testing",,"$2,000 - $15,000",
