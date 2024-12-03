@@ -8,7 +8,6 @@ ID,Business Size,Service Category,Product/Service,Description,Delivery Method,Te
 7,,Computer Programming,API Integration,,Digital Delivery,3,2-3 business days,,,,
 8,,Brand Identity,Full Brand Kit,,Digital Delivery,10,2-3 business days,,,,
 9,,Mobile/Web Development,E-commerce Website,,Digital Delivery,10,2-3 business days,,,,
-,,,,,,,,,,,
 10,,Writing,Blog Writing,"Generate ideas, outlines, and content for blogs. Offer writing services to clients.",,,,,30,,Hour
 11,,Brand Identity,Social Media Content,Create engaging posts for social media platforms. Provide regular content updates.,,,,,50,,Hour
 12,,Writing,Copywriting,"Develop marketing copy for websites, emails, and advertisements.",,,,,50,,Hour
@@ -31,7 +30,6 @@ ID,Business Size,Service Category,Product/Service,Description,Delivery Method,Te
 29,,Programming,Custom Chatbots,Develop and sell customized chatbot solutions for businesses.,,,,,100,,Hour
 30,,Mobile/Web Development,SEO Content,Write SEO-optimized content to improve website rankings.,,,,,50,,Hour
 31,,Writing,Ad Copy,Create effective ad copy for online advertisements.,,,,,30,,Hour
-,,,,,,,,,,,
 32,Small,Web3,Web3 Consulting and Education,,,,,,,"1,000 - 5,000",Project
 33,Small,Web3,Smart Contract Development,,,,,,,"2,000 - 10,000",Project
 34,Small,Web3,NFT Integration,,,,,,,"3,000 - 15,000",Project
@@ -51,31 +49,29 @@ ID,Business Size,Service Category,Product/Service,Description,Delivery Method,Te
 48,Cross-Business,Web3,Interoperability Solutions,,,,,,,"20,000 - 150,000",Project
 49,Cross-Business,Web3,Web3 Infrastructure Consulting,,,,,,,"10,000 - 50,000",Project
 50,Cross-Business,Web3,Regulatory Compliance,,,,,,,"15,000 - 75,000",Project
-,,,,,,,,,,,
 51,Small Business,,Basic Website Setup and Customization,"Setting up a WordPress site with essential plugins and a customized theme; Designing a simple, user-friendly layout that reflects the business’s brand; Creating basic pages (Home, About, Services, Contact)",,,,,,,
-52,Small Business,,E-Commerce Integration,Setting up WooCommerce or other e-commerce plugins; Configuring payment gateways and product pages; Training the client on how to manage their online store,,,,,,,
+52,Small Business,,E-Commerce Integration,Setting up WooCommerce or other e-commerce plugins, Configuring payment gateways and product pages, Training the client on how to manage their online store,,,,,
 53,Small Business,,Website Maintenance and Support,"Regular updates for WordPress core, themes, and plugins; Backup and restore services; Security monitoring and malware removal",,,,,,,
 54,Small Business,,SEO Optimization,"Basic on-page SEO setup (title tags, meta descriptions, alt text); Installation and configuration of SEO plugins like Yoast SEO; Local SEO strategies for small businesses targeting local customers",,,,,,,
-55,Small Business,,Content Management and Blog Setup,Setting up a blog section and training on content management; Creating and scheduling blog posts; Ensuring the blog is optimized for SEO,,,,,,,
+55,Small Business,,Content Management and Blog Setup,Setting up a blog section and training on content management, Creating and scheduling blog posts, Ensuring the blog is optimized for SEO,,,,,
 56,Small Business,,Speed Optimization,"Implementing caching solutions; Image optimization; Minimizing CSS, JavaScript, and HTML",,,,,,,
 57,Medium Business,,Advanced Customization and Theme Development,"Developing custom themes tailored to the brand; Integrating advanced features like custom post types, fields, and taxonomies",,,,,,,
-58,Medium Business,,Advanced E-Commerce Solutions,Multi-currency and multi-language support; Integration with CRM and ERP systems; Subscription-based services and membership sites,,,,,,,
-59,Medium Business,,Custom Plugin Development,Developing custom plugins to add unique functionality; Modifying existing plugins to suit specific business needs,,,,,,,
+58,Medium Business,,Advanced E-Commerce Solutions,Multi-currency and multi-language support, Integration with CRM and ERP systems, Subscription-based services and membership sites,,,,,
+59,Medium Business,,Custom Plugin Development,Developing custom plugins to add unique functionality, Modifying existing plugins to suit specific business needs,,,,,,
 60,Medium Business,,Content Strategy and Management,"Developing a content strategy to drive engagement and conversions; Implementing content marketing tactics, including blogging, video, and social media integration",,,,,,,
 61,Medium Business,,Analytics and Conversion Optimization,"Setting up Google Analytics, heatmaps, and conversion tracking; A/B testing of pages to improve conversion rates; Implementing user feedback mechanisms like surveys and reviews",,,,,,,
-62,Medium Business,,Ongoing Website Maintenance and Performance Optimization,Regular performance audits and speed enhancements; Proactive security measures and monitoring; Custom reports and analytics review sessions,,,,,,,
+62,Medium Business,,Ongoing Website Maintenance and Performance Optimization,Regular performance audits and speed enhancements, Proactive security measures and monitoring, Custom reports and analytics review sessions,,,,,
 63,Large Business,,Enterprise-Level WordPress Development,"Building scalable WordPress multisite networks; Integrating WordPress with enterprise-level tools and platforms (CRM, ERP, etc.); Developing custom APIs for integration with other systems",,,,,,,
 64,Large Business,,Custom Theme and Plugin Development,"Designing highly customized, brand-specific themes; Developing enterprise-grade plugins with complex functionalities; Continuous development and iterative updates based on business needs",,,,,,,
 65,Large Business,,Advanced E-Commerce and Marketplace Solutions,"Creating large-scale online stores with hundreds or thousands of products; Developing custom checkout processes, user roles, and permission management; Integration with third-party logistics and inventory management systems",,,,,,,
 66,Large Business,,Comprehensive SEO and Digital Marketing,"Advanced SEO strategies including technical SEO audits, backlinking, and content optimization; Implementing large-scale digital marketing campaigns; Managing and optimizing PPC campaigns and social media ads",,,,,,,
 67,Large Business,,Security and Compliance Services,"Implementing enterprise-level security protocols; Ensuring compliance with industry regulations (GDPR, CCPA, etc.); Regular security audits and penetration testing",,,,,,,
 68,Large Business,,High Availability and Performance Optimization,"Implementing CDN, advanced caching, and database optimization; Setting up and managing redundant hosting and disaster recovery plans; Ensuring the site can handle high traffic with minimal downtime",,,,,,,
-69,Large Business,,Custom Reporting and Data Analysis,Developing custom dashboards and reports for business intelligence; Integrating WordPress data with other business systems for holistic insights; Ongoing data analysis to inform strategy and decision-making,,,,,,,
-70,All Business Sizes,,Training and Consulting,Providing WordPress training for in-house teams; Offering consultation services on best practices and digital strategy,,,,,,,
-71,All Business Sizes,,Website Redesign and Rebranding,Redesigning existing websites to align with new branding or market shifts; Improving user experience (UX) and user interface (UI),,,,,,,
-72,All Business Sizes,,Migration Services,Migrating websites to WordPress from other platforms; Transferring WordPress sites between hosting providers without downtime,,,,,,,
-73,All Business Sizes,,Accessibility and Usability Enhancements,Ensuring websites meet accessibility standards (WCAG 2.1); Conducting usability testing and making necessary adjustments,,,,,,,
-,,,,,,,,,,,
+69,Large Business,,Custom Reporting and Data Analysis,Developing custom dashboards and reports for business intelligence, Integrating WordPress data with other business systems for holistic insights, Ongoing data analysis to inform strategy and decision-making,,,,,
+70,All Business Sizes,,Training and Consulting,Providing WordPress training for in-house teams, Offering consultation services on best practices and digital strategy,,,,,,
+71,All Business Sizes,,Website Redesign and Rebranding,Redesigning existing websites to align with new branding or market shifts, Improving user experience (UX) and user interface (UI),,,,,,
+72,All Business Sizes,,Migration Services,Migrating websites to WordPress from other platforms, Transferring WordPress sites between hosting providers without downtime,,,,,,
+73,All Business Sizes,,Accessibility and Usability Enhancements,Ensuring websites meet accessibility standards (WCAG 2.1), Conducting usability testing and making necessary adjustments,,,,,,
 74,Small Business,,Basic Website Development,"Creating a simple, responsive website using HTML, CSS, and JavaScript; Developing a user-friendly interface tailored to the brand; Setting up essential pages like Home, About, Services, and Contact",,,,"Custom Design vs. Template, Additional Pages, Interactive Elements",,"$3,000 - $8,000",
 75,Small Business,,E-Commerce Development,"Building an online store with platforms like Shopify, WooCommerce, or Magento; Setting up payment gateways and product management; Training on store management and inventory tracking",,,,"Number of Products, Custom Checkout Processes, Integration with Third-Party Systems",,"$5,000 - $20,000",
 76,Small Business,,Website Maintenance and Support,Regular updates for the website’s backend and frontend technologies. Performing backups and ensuring quick recovery options.  Monitoring security and fixing vulnerabilities. ,,,,"Frequency of Updates, Level of Support, Backup Services",,"$500 - $2,000 per month",
