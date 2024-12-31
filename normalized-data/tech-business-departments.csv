@@ -1,5 +1,5 @@
 Department,Sub-department,Process,Key Focus
-Startup Stage,,,,
+Startup Stage,,,
 Product Development,Engineering/Software Development,Agile methodologies (e.g., Scrum, Kanban) are used to manage software creation. The lifecycle involves planning, coding, testing, and deployment, often in iterative cycles.,Building MVP (Minimum Viable Product), releasing features quickly, and adjusting based on feedback.
 Product Development,UX/UI Design,Involves researching user needs, creating wireframes and prototypes, and performing usability testing.,Creating intuitive, user-friendly designs that enhance product usability.
 Operations,IT Support,Helpdesk and ticketing systems are used to handle technical issues.,Ensuring employees have seamless access to IT resources.
@@ -9,7 +9,7 @@ Sales & Marketing,Sales,Identifying leads, nurturing them through outreach, and 
 Finance & Admin,Accounting,Record financial transactions, prepare financial statements, and ensure compliance with regulations.,Cash flow management, tax filing, and maintaining financial health.
 Finance & Admin,Legal/Compliance,Legal contracts, IP protection, and maintaining compliance with business regulations (e.g., GDPR).,Minimizing legal risks and ensuring smooth operations.
 
-Growth Stage,,,,
+Growth Stage,,,
 Product & Engineering,R&D,Research new technologies, trends, and innovative product ideas. Feasibility studies and prototyping are key.,Staying competitive by innovating and improving offerings.
 Product & Engineering,QA Testing,Automated and manual testing processes to identify and resolve bugs before launch.,Delivering bug-free, high-quality products.
 Operations,IT/Infrastructure,Managing hardware, software, networks, and cloud services. Routine monitoring and system updates.,Ensuring systems scale smoothly as the company grows.
@@ -23,7 +23,7 @@ HR & People Ops,Employee Engagement,Surveys, team-building activities, and feedb
 Finance & Legal,FP&A (Financial Planning & Analysis),Creating budgets, financial forecasts, and variance analysis.,Supporting growth with accurate financial data for decision-making.
 Finance & Legal,Legal & Compliance,Contracts management, risk mitigation, and compliance checks for new regions and regulations.,Protecting the company as it scales globally.
 
-Established Stage,,,,
+Established Stage,,,
 Product & Innovation,Product Management,Roadmap planning, prioritization of features, and cross-functional collaboration.,Aligning product development with long-term strategy.
 Product & Innovation,Engineering,Large-scale software architecture, feature enhancement, and technical debt management.,Scaling technology to meet increasing demand while ensuring reliability.
 Product & Innovation,AI/ML Research,Research, model training, and deployment of machine learning solutions.,Pushing innovation using AI technologies to automate or enhance products.
