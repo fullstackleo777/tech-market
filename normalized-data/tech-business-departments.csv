@@ -1,5 +1,5 @@
 Business Stage,Department,Sub-department,Process,Key Focus
-Startup Stage,Product Development,Engineering/Software Development,"Agile methodologies (e.g., Scrum, Kanban) are used to manage software creation. The lifecycle involves planning, coding, testing, and deployment, often in iterative cycles: Building MVP (Minimum Viable Product), releasing features quickly, and adjusting based on feedback.",
+Startup Stage,Product Development,Engineering/Software Development,"Agile methodologies (e.g., Scrum, Kanban) are used to manage software creation. The lifecycle involves planning, coding, testing, and deployment, often in iterative cycles.","Building MVP (Minimum Viable Product), releasing features quickly, and adjusting based on feedback."
 Startup Stage,Product Development,UX/UI Design,"Involves researching user needs, creating wireframes and prototypes, and performing usability testing.","Creating intuitive, user-friendly designs that enhance product usability."
 Startup Stage,Operations,IT Support,Helpdesk and ticketing systems are used to handle technical issues.,Ensuring employees have seamless access to IT resources.
 Startup Stage,Operations,DevOps,"Integrates development and operations to automate deployment processes using tools like Jenkins, Docker, Kubernetes.",Speeding up development cycles while ensuring system reliability.
@@ -32,7 +32,7 @@ Established Stage,Marketing, Sales & Growth,Customer Success,"Proactive manageme
 Established Stage,Marketing, Sales & Growth,CRM Management,"Managing customer data and workflows through CRM platforms (e.g., Salesforce): Optimizing customer relationships and sales efficiency."
 Established Stage,HR & Talent,Talent Acquisition,Sourcing and attracting high-level talent for specialized roles.,Filling critical positions that drive business growth.
 Established Stage,HR & Talent,Learning & Development,"Providing training, mentoring, and development programs to upskill employees.",Ensuring employees grow in line with the business’s needs.
-Established Stage,HR & Talent,"DEI (Diversity, Equity, Inclusion)",Initiatives to foster diverse and inclusive workplace culture. Policy development and training: Promoting fairness and representation across the organization.,
+Established Stage,HR & Talent,"DEI (Diversity, Equity, Inclusion)",Initiatives to foster diverse and inclusive workplace culture.","Policy development and training, promoting fairness and representation across the organization."
 Established Stage,Finance & Strategy,Treasury,"Managing cash flow, capital investments, and financial risks.",Optimizing capital structure and resource allocation.
 Established Stage,Finance & Strategy,Corporate Strategy,"Long-term business planning, market analysis, and competitive positioning. Often involves M&A.",Ensuring the company’s vision and strategy align with market trends.
 Established Stage,Legal & Compliance,Intellectual Property,"Managing patents, trademarks, and copyrights. Protecting proprietary technologies.",Safeguarding innovation and competitive advantage.
