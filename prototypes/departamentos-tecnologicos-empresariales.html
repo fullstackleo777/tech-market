@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Departamentos Tecnológicos Prototipo</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 1rem;
+        background: #f0f0f0;
+    }
+    .accordion {
+        background-color: #004466;
+        color: white;
+        cursor: pointer;
+        padding: 1rem;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1rem;
+        transition: background-color 0.2s ease;
+        margin-top: 0.5rem;
+    }
+    .accordion:hover {
+        background-color: #006699;
+    }
+    .panel {
+        padding: 0 1rem;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        border-top: none;
+    }
+    .subcard {
+        margin: 1rem 0;
+        padding: 1rem;
+        background: #e9f5f9;
+        border-left: 5px solid #0077b6;
+    }
+    h4 {
+        margin: 0 0 0.5rem 0;
+    }
+</style>
+</head>
+<body>
+
+<h2>Departamentos Tecnológicos Empresariales</h2>
+
+    <button class="accordion">Etapa Establecida - Finanzas y Estrategia</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Tesorería</h4>
+            <p><strong>Proceso:</strong> Gestión del flujo de caja, inversiones de capital y riesgos financieros.</p>
+            <p><strong>Enfoque Clave:</strong> Optimizar la estructura de capital y la asignación de recursos.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Estrategia Corporativa</h4>
+            <p><strong>Proceso:</strong> Planificación empresarial a largo plazo, análisis de mercado y posicionamiento competitivo. A menudo incluye M&A.</p>
+            <p><strong>Enfoque Clave:</strong> Asegurar que la visión y estrategia de la empresa se alineen con las tendencias del mercado.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa Establecida - Legal y Conformidad</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Propiedad Intelectual</h4>
+            <p><strong>Proceso:</strong> Gestión de patentes, marcas registradas y derechos de autor. Protección de tecnologías propietarias.</p>
+            <p><strong>Enfoque Clave:</strong> Salvaguardar la innovación y la ventaja competitiva.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Conformidad Regulatoria</h4>
+            <p><strong>Proceso:</strong> Cumplimiento con estándares de la industria, regulaciones gubernamentales y leyes de protección de datos (p. ej., GDPR).</p>
+            <p><strong>Enfoque Clave:</strong> Evitar sanciones legales y mantener la integridad empresarial.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa Establecida - Marketing</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4> Ventas y Crecimiento</h4>
+            <p><strong>Proceso:</strong> Marketing Digital, SEO, PPC, marketing en redes sociales, marketing de contenidos y campañas basadas en análisis. Pruebas A/B iterativas.</p>
+            <p><strong>Enfoque Clave:</strong> Llegar a nuevos clientes en línea y mejorar la generación de leads.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4> Ventas y Crecimiento</h4>
+            <p><strong>Proceso:</strong> Gestión de Socios/Canales, Gestionar socios externos, afiliados y revendedores para generar ingresos.</p>
+            <p><strong>Enfoque Clave:</strong> Expandir alcance a través de socios externos.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4> Ventas y Crecimiento</h4>
+            <p><strong>Proceso:</strong> Éxito del Cliente, Gestión proactiva de cuentas de clientes para asegurar su satisfacción. Upselling, renovaciones y soporte postventa.</p>
+            <p><strong>Enfoque Clave:</strong> Maximizar el valor del cliente de por vida (LTV) y reducir la rotación.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4> Ventas y Crecimiento</h4>
+            <p><strong>Proceso:</strong> Gestión CRM, Gestionar datos y flujos de trabajo de clientes a través de plataformas CRM (p. ej., Salesforce).</p>
+            <p><strong>Enfoque Clave:</strong> Optimizar relaciones con clientes y la eficiencia en ventas.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa Establecida - Operaciones e Infraestructura</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Infraestructura de TI</h4>
+            <p><strong>Proceso:</strong> Escalar y optimizar redes, servidores y bases de datos para soportar mayor tráfico y equipos más grandes.</p>
+            <p><strong>Enfoque Clave:</strong> Mantener el tiempo de actividad y disponibilidad para operaciones globales.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Gestión en la Nube</h4>
+            <p><strong>Proceso:</strong> Gestionar servicios basados en la nube (AWS, Azure), optimización de costos y mantenimiento de redundancia de datos.</p>
+            <p><strong>Enfoque Clave:</strong> Uso eficiente de la infraestructura en la nube para soportar escalabilidad.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Ciberseguridad</h4>
+            <p><strong>Proceso:</strong> Implementar medidas de seguridad avanzadas (p. ej., firewalls, sistemas de detección de intrusos). Evaluaciones y parches regulares de vulnerabilidad.</p>
+            <p><strong>Enfoque Clave:</strong> Prevenir brechas y salvaguardar activos críticos.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>DevOps</h4>
+            <p><strong>Proceso:</strong> Integración/Despliegue Continuo (CI/CD) para automatizar y agilizar el proceso de lanzamiento.</p>
+            <p><strong>Enfoque Clave:</strong> Acelerar los ciclos de lanzamiento mientras se asegura la estabilidad del sistema.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa Establecida - Producto e Innovación</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Gestión de Producto</h4>
+            <p><strong>Proceso:</strong> Planificación de hojas de ruta, priorización de características y colaboración entre departamentos.</p>
+            <p><strong>Enfoque Clave:</strong> Alinear el desarrollo de productos con la estrategia a largo plazo.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Ingeniería</h4>
+            <p><strong>Proceso:</strong> Arquitectura de software a gran escala, mejora de características y gestión de deuda técnica.</p>
+            <p><strong>Enfoque Clave:</strong> Escalar la tecnología para satisfacer la creciente demanda mientras se garantiza la fiabilidad.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Investigación en IA/ML</h4>
+            <p><strong>Proceso:</strong> Investigación, entrenamiento de modelos y despliegue de soluciones de aprendizaje automático.</p>
+            <p><strong>Enfoque Clave:</strong> Impulsar la innovación utilizando tecnologías de IA para automatizar o mejorar productos.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa Establecida - RRHH y Talento</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Adquisición de Talento</h4>
+            <p><strong>Proceso:</strong> Búsqueda y atracción de talento de alto nivel para roles especializados.</p>
+            <p><strong>Enfoque Clave:</strong> Cubrir posiciones críticas que impulsen el crecimiento empresarial.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Aprendizaje y Desarrollo</h4>
+            <p><strong>Proceso:</strong> Proveer programas de capacitación, mentoría y desarrollo para mejorar las habilidades de los empleados.</p>
+            <p><strong>Enfoque Clave:</strong> Asegurar que los empleados crezcan en línea con las necesidades del negocio.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>DEI (Diversidad, Equidad, Inclusión)</h4>
+            <p><strong>Proceso:</strong> Iniciativas para fomentar una cultura laboral diversa e inclusiva.</p>
+            <p><strong>Enfoque Clave:</strong> Desarrollo de políticas y capacitación, promoviendo equidad y representación en toda la organización.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Crecimiento - Finanzas y Legal</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Planificación y Análisis Financiero (FP&A)</h4>
+            <p><strong>Proceso:</strong> Crear presupuestos, previsiones financieras y análisis de desviaciones.</p>
+            <p><strong>Enfoque Clave:</strong> Apoyar el crecimiento con datos financieros precisos para la toma de decisiones.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Legal y Conformidad</h4>
+            <p><strong>Proceso:</strong> Gestión de contratos, mitigación de riesgos y verificación de cumplimiento para nuevas regiones y regulaciones.</p>
+            <p><strong>Enfoque Clave:</strong> Proteger a la empresa mientras escala globalmente.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Crecimiento - Operaciones</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>TI/Infraestructura</h4>
+            <p><strong>Proceso:</strong> Gestionar hardware, software, redes y servicios en la nube. Monitoreo rutinario y actualizaciones del sistema.</p>
+            <p><strong>Enfoque Clave:</strong> Asegurar que los sistemas escalen suavemente a medida que la empresa crece.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Seguridad de Datos</h4>
+            <p><strong>Proceso:</strong> Encriptación, control de acceso y monitoreo de datos para prevenir brechas. Auditorías regulares y pruebas de seguridad.</p>
+            <p><strong>Enfoque Clave:</strong> Proteger la privacidad de los datos y cumplir con estándares de seguridad (p. ej., ISO, SOC2).</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Soporte al Cliente</h4>
+            <p><strong>Proceso:</strong> Soporte multicanal (teléfono, chat, correo electrónico) para manejar consultas e incidencias de clientes.</p>
+            <p><strong>Enfoque Clave:</strong> Aumentar la satisfacción y retención de clientes.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Crecimiento - Producto e Ingeniería</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>I+D</h4>
+            <p><strong>Proceso:</strong> Investigar nuevas tecnologías, tendencias e ideas innovadoras de productos. Los estudios de viabilidad y prototipos son clave.</p>
+            <p><strong>Enfoque Clave:</strong> Mantener la competitividad innovando y mejorando las ofertas.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Pruebas de Calidad</h4>
+            <p><strong>Proceso:</strong> Pruebas automáticas y manuales para identificar y resolver errores antes del lanzamiento.</p>
+            <p><strong>Enfoque Clave:</strong> Entregar productos de alta calidad sin errores.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Crecimiento - RRHH y Operaciones de Personal</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Reclutamiento</h4>
+            <p><strong>Proceso:</strong> Buscar, seleccionar, entrevistar e incorporar candidatos utilizando sistemas ATS (Sistemas de Seguimiento de Candidatos).</p>
+            <p><strong>Enfoque Clave:</strong> Contratar al mejor talento para satisfacer las necesidades de crecimiento.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Compromiso de Empleados</h4>
+            <p><strong>Proceso:</strong> Encuestas, actividades de team building y mecanismos de retroalimentación para mantener una cultura laboral saludable.</p>
+            <p><strong>Enfoque Clave:</strong> Mejorar la moral de los empleados y reducir la rotación.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Crecimiento - Ventas y Marketing</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Desarrollo de Negocios</h4>
+            <p><strong>Proceso:</strong> Identificar asociaciones, alianzas estratégicas y nuevas fuentes de ingresos.</p>
+            <p><strong>Enfoque Clave:</strong> Expandir la presencia en el mercado y encontrar nuevas oportunidades de crecimiento.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Marketing de Rendimiento</h4>
+            <p><strong>Proceso:</strong> Campañas basadas en datos utilizando KPIs (p. ej., CTR, ROI). Optimizar el rendimiento de anuncios a través de canales digitales.</p>
+            <p><strong>Enfoque Clave:</strong> Escalar campañas pagadas de manera eficiente para maximizar ROI.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Relaciones Públicas</h4>
+            <p><strong>Proceso:</strong> Relaciones con los medios, comunicados de prensa y gestión de eventos. También son importantes las estrategias de gestión de crisis.</p>
+            <p><strong>Enfoque Clave:</strong> Gestionar la imagen y reputación de la empresa.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Inicio - Desarrollo de Producto</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Ingeniería/Desarrollo de Software</h4>
+            <p><strong>Proceso:</strong> Se utilizan metodologías ágiles (p. ej., Scrum, Kanban) para gestionar la creación de software. El ciclo de vida incluye planificación, codificación, pruebas y despliegue, a menudo en ciclos iterativos.</p>
+            <p><strong>Enfoque Clave:</strong> Construir un MVP (Producto Mínimo Viable), lanzar características rápidamente y ajustarlas según los comentarios.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Diseño UX/UI</h4>
+            <p><strong>Proceso:</strong> Implica investigar las necesidades del usuario, crear wireframes y prototipos, y realizar pruebas de usabilidad.</p>
+            <p><strong>Enfoque Clave:</strong> Crear diseños intuitivos y fáciles de usar que mejoren la usabilidad del producto.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Inicio - Finanzas y Administración</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Contabilidad</h4>
+            <p><strong>Proceso:</strong> Registrar transacciones financieras, preparar estados financieros y garantizar el cumplimiento de las normativas.</p>
+            <p><strong>Enfoque Clave:</strong> Gestión del flujo de efectivo, presentación de impuestos y mantenimiento de la salud financiera.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Legal/Conformidad</h4>
+            <p><strong>Proceso:</strong> Contratos legales, protección de propiedad intelectual y cumplimiento de regulaciones empresariales (p. ej., GDPR).</p>
+            <p><strong>Enfoque Clave:</strong> Minimizar riesgos legales y asegurar operaciones fluidas.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Inicio - Operaciones</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Soporte Técnico</h4>
+            <p><strong>Proceso:</strong> Se utilizan sistemas de helpdesk y tickets para manejar problemas técnicos.</p>
+            <p><strong>Enfoque Clave:</strong> Asegurar que los empleados tengan acceso sin interrupciones a los recursos de TI.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>DevOps</h4>
+            <p><strong>Proceso:</strong> Integra desarrollo y operaciones para automatizar procesos de implementación utilizando herramientas como Jenkins, Docker, Kubernetes.</p>
+            <p><strong>Enfoque Clave:</strong> Acelerar los ciclos de desarrollo mientras se garantiza la fiabilidad del sistema.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Etapa de Inicio - Ventas y Marketing</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Marketing de Crecimiento</h4>
+            <p><strong>Proceso:</strong> Utiliza estrategias basadas en datos (p. ej., pruebas A/B, anuncios pagados) para aumentar la adquisición de usuarios.</p>
+            <p><strong>Enfoque Clave:</strong> Experimentación e iteración rápida para encontrar tácticas de crecimiento escalables.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Ventas</h4>
+            <p><strong>Proceso:</strong> Identificación de prospectos, contacto con ellos y conversión en clientes utilizando herramientas CRM.</p>
+            <p><strong>Enfoque Clave:</strong> Generar y cerrar acuerdos rápidamente.</p>
+        </div>
+        
+    </div>
+    
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
