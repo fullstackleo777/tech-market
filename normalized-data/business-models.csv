@@ -1,0 +1,12 @@
+Business Model,Description,Revenue Source,Examples,Key Metrics
+Software as a Service (SaaS),"Subscription-based access to cloud-hosted software","Monthly/annual subscriptions","Salesforce, Slack, HubSpot, Zoom","MRR/ARR, CAC, LTV, churn rate"
+Platform/IaaS (PaaS/IaaS),"Cloud infrastructure or platforms for developers","Usage-based pricing or subscriptions","AWS, Microsoft Azure, Google Cloud","Usage rates, uptime, developer adoption"
+Marketplace,"Connects buyers and sellers via a digital platform","Transaction fees, listing fees, commissions","Amazon, Uber, Airbnb, Fiverr","GMV, take rate, supply/demand ratio"
+Freemium,"Core product is free; advanced features are paid","Upgrades from free to paid plans","Dropbox, Zoom, Notion","Free-to-paid conversion, user retention, CAC"
+Ad-Supported,"Free to users; revenue from advertisers","Ad impressions, clicks, data monetization","Google, Facebook, YouTube","Ad revenue per user, impressions, engagement"
+E-commerce,"Online sale of products direct to consumers or businesses","Sales margins, fulfillment fees, premium listings","Shopify, Amazon, Etsy","CAC, AOV, conversion rate"
+Subscription Box / Hardware+Software,"Physical product bundled with ongoing software or services","Hardware sales + recurring SaaS","Peloton, Tesla, Apple","Device unit sales, attach rate, MRR"
+Licensing / Enterprise Software,"Paid licenses to use proprietary software","Perpetual or annual license fees, support","Oracle, SAP","License renewal, enterprise deal size"
+Open Source with Paid Services,"Free core product with monetized services or features","Support contracts, premium features, hosting","Red Hat, GitLab, Elastic","Community growth, conversion to paid, enterprise contracts"
+Data-as-a-Service (DaaS),"Access to datasets or APIs for integration","Subscriptions or pay-per-use","Clearbit, Crunchbase, Snowflake","API usage, data freshness, customer segments"
+AI-as-a-Service / ML Platforms,"Machine learning tools/models offered via API or platform","Usage-based or enterprise subscriptions","OpenAI, Hugging Face, DataRobot","Inference volume, latency, model accuracy"
