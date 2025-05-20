@@ -1,0 +1,1580 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tech Services (USA) Prototype</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #f4f4f4;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .card-header {
+      padding: 1rem;
+      background: #003366;
+      color: white;
+    }
+    .card-header h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.2rem;
+    }
+    .card-header .subinfo {
+      font-size: 0.9rem;
+      color: #cce6ff;
+    }
+    .card-details {
+      display: none;
+      padding: 1rem;
+      background: #fefefe;
+      border-top: 1px solid #ddd;
+    }
+    .card-details p {
+      margin: 0.5rem 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Tech Services for U.S. Businesses</h2>
+
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Administrative Tasks</h2>
+            <p class="subinfo">Assistance | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Assist with tasks like email management, scheduling, and data entry.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Custom templates, bulk task handling</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 30 - 70</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Logo Design (Basic)</h2>
+            <p class="subinfo">Brand Identity | $100 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> A simple, professional logo tailored to your brand, featuring clean design and limited revisions.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Additional revisions, expedited delivery</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 80 - 150</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Logo Design (Detailed)</h2>
+            <p class="subinfo">Brand Identity | $300 | 1 Business Day</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> A comprehensive logo design process, including detailed research, custom graphics, multiple revisions, and a full brand identity concept.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Advanced branding consultation, additional logo concepts</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 250 - 500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Full Brand Kit</h2>
+            <p class="subinfo">Brand Identity | $800 | 2-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> A comprehensive package including logos, color schemes, typography, and brand guidelines to maintain consistent brand identity across platforms.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Additional visual assets, extended consultation</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 700 - 1,200</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Social Media Content</h2>
+            <p class="subinfo">Brand Identity | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Create engaging posts for social media platforms. Provide regular content updates.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Hashtag research, multimedia posts</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 80 - 150</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Content Creation for Affiliates</h2>
+            <p class="subinfo">Brand Identity | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Write reviews, comparisons, and promotional content for affiliate marketing.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Affiliate optimization, bonus content</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 120 - 200</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Simple Script</h2>
+            <p class="subinfo">Computer/Server Programming | $200 | 1 Business Day</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> A short, straightforward script or automation tailored to a specific task or integration, ensuring efficiency and functionality.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Advanced features, multi-platform compatibility</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 150 - 350</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>API Integration</h2>
+            <p class="subinfo">Computer/Server Programming | $1000 | 2-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Seamless integration of third-party APIs into your system, enabling data exchange and enhanced application functionality.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Priority support, complex integrations</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 800 - 2,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Business Consulting</h2>
+            <p class="subinfo">Consulting | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Provide insights and strategies for businesses based on industry research.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Workshops, implementation plans</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,200 - 2,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Business Cards (100 pieces)</h2>
+            <p class="subinfo">Custom Prints | $50 | 1 Business Day</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> High-quality printed business cards with custom designs, showcasing your brand's logo, contact details, and professional image.</p>
+            <p><strong>Delivery Method:</strong> Physical Shipment</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Premium materials, embossed printing</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 40 - 100</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Event Banners</h2>
+            <p class="subinfo">Custom Prints | $150 | 2-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Bold, high-resolution banners designed for events, conferences, or advertising, customized for size and branding needs.</p>
+            <p><strong>Delivery Method:</strong> Physical Shipment</p>
+            <p><strong>Team Size:</strong> 2</p>
+            <p><strong>Modifiers:</strong> Custom sizes, double-sided printing</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 100 - 300</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Data Analysis</h2>
+            <p class="subinfo">Data | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Analyze data and generate reports for business decision-making.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Visualization, custom reporting</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 200 - 400</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Online Tutoring</h2>
+            <p class="subinfo">Education | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Create lesson plans, study guides, and answer questions for tutoring sessions.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Custom lesson plans, virtual whiteboard</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 80 - 120</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Course Creation</h2>
+            <p class="subinfo">Education | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Develop online courses and educational content for various topics.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Quizzes, certification options</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 400 - 800</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Landing Page</h2>
+            <p class="subinfo">Mobile/Web Development | $500 | 2-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> A visually engaging single web page designed to capture leads or drive conversions, optimized for SEO and mobile-friendly.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 2</p>
+            <p><strong>Modifiers:</strong> SEO optimization, custom animations</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 400 - 800</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>E-commerce Website</h2>
+            <p class="subinfo">Mobile/Web Development | $3000 | 2-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> A fully functional online store with a sleek design, product listings, payment gateway integration, and user-friendly navigation for seamless shopping experiences.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Custom features, multi-language support</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 2,500 - 5,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>SEO Content</h2>
+            <p class="subinfo">Mobile/Web Development | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Write SEO-optimized content to improve website rankings.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Keyword research, competitor analysis</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 120 - 200</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Basic Website Development</h2>
+            <p class="subinfo">Mobile/Web Development | $3000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Creating a simple, responsive website using HTML, CSS, and JavaScript; Developing a user-friendly interface tailored to the brand; Setting up essential pages like Home, About, Services, and Contact</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 7</p>
+            <p><strong>Modifiers:</strong> Custom Design vs. Template, Additional Pages, Interactive Elements</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 3,000 - 8,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>E-Commerce Development</h2>
+            <p class="subinfo">Mobile/Web Development | $5000 | 10-15 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Building an online store with platforms like Shopify, WooCommerce, or Magento; Setting up payment gateways and product management; Training on store management and inventory tracking</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Number of Products, Custom Checkout Processes, Integration with Third-Party Systems</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 5,000 - 20,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Website Maintenance and Support</h2>
+            <p class="subinfo">Mobile/Web Development | $500 | 2-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Regular updates for the website’s backend and frontend technologies. Performing backups and ensuring quick recovery options.  Monitoring security and fixing vulnerabilities. </p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Frequency of Updates, Level of Support, Backup Services</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 500 - 2,000 per month</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>SEO and Online Presence Optimization</h2>
+            <p class="subinfo">Mobile/Web Development | $300 | 5-7 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Implementing basic on-page SEO strategies. Setting up Google My Business for local search visibility. Integrating social media and managing basic online marketing campaigns.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Content Creation, Link Building, Geographical Targeting</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 300 - 1,600 per month</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Content Management and Blogging</h2>
+            <p class="subinfo">Mobile/Web Development | $2000 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Setting up a CMS like WordPress or Joomla. Training on content creation and management. Ensuring the blog is optimized for SEO and social sharing.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Frequency of Posts, Content Length and Depth, Editorial Calendar Management</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 2,000 - 10,000 for setup, 500 - 2,000 per month for ongoing management</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Performance Optimization</h2>
+            <p class="subinfo">Mobile/Web Development | $1000 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Optimizing website speed by compressing images and code. Implementing caching solutions. Ensuring the website performs well on mobile devices.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Current Site Performance, Hosting Environment, Traffic Levels</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,000 - 5,000 one-time cost, plus ongoing support fees</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Custom Web Application Development</h2>
+            <p class="subinfo">Mobile/Web Development | $10000 | 15-20 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Developing custom web applications tailored to business needs; Implementing advanced features such as user accounts, dashboards, and data processing; Integrating APIs and third-party services</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Complexity of Business Logic, User Roles and Permissions, Scalability Requirements</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 10,000 - 75,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Advanced E-Commerce Solutions</h2>
+            <p class="subinfo">Mobile/Web Development | $20000 | 20-25 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Creating sophisticated e-commerce platforms with custom features. Developing multi-vendor marketplaces and subscription models. Integrating CRM and inventory management systems.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Subscription Models, Inventory and Order Management, Custom Analytics</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 20,000 - 40,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>UI/UX Design and Development</h2>
+            <p class="subinfo">Mobile/Web Development | $5000 | 10-15 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Designing and developing intuitive user interfaces. Conducting user experience (UX) research and testing. Implementing design systems and ensuring brand consistency.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Number of Iterations, User Testing, Accessibility Compliance</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 5,000 - 15,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Content Strategy and Marketing Integration</h2>
+            <p class="subinfo">Mobile/Web Development | $5000 | 5-7 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Creating a comprehensive content strategy that drives engagement. Integrating content marketing with social media and email marketing campaigns. Using analytics to optimize content performance.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Multilingual Content, Advanced Analytics Integration, Cross-Platform Campaigns</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 5,000 - 20,000 for initial setup; ongoing management costs vary</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Web Security and Compliance</h2>
+            <p class="subinfo">Mobile/Web Development | $3000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Implementing advanced security protocols like SSL, firewalls, regular audits, and ensuring compliance with regulations like GDPR</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 2</p>
+            <p><strong>Modifiers:</strong> Level of Security, Compliance Standards, Incident Response Planning</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 3,000 - 10,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Ongoing Support and Performance Monitoring</h2>
+            <p class="subinfo">Mobile/Web Development | $1500 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Providing continuous support for website enhancements and fixes. Regular performance audits and optimizations. Offering detailed reporting and insights on website traffic and user behavior.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Proactive Monitoring, Custom Reporting, Dedicated Support Teams</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,500 - 5,000 per month</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Enterprise-Level Web Development</h2>
+            <p class="subinfo">Mobile/Web Development | $50000 | 25-30 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Building large-scale web platforms with scalable architecture; Implementing enterprise-grade solutions like microservices, cloud integration, and load balancing</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Customization Level, Infrastructure Requirements, Global Reach</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 50,000 - 150,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Advanced Integration and API Development</h2>
+            <p class="subinfo">Mobile/Web Development | $20000 | 15-20 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Developing custom APIs for integration with other enterprise systems. Ensuring seamless data flow and synchronization.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Number of Integrations, Real-Time Data, Custom Middleware</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 20,000 - 75,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Data Analytics and Business Intelligence</h2>
+            <p class="subinfo">Mobile/Web Development | $15000 | 10-15 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Setting up advanced analytics tools, custom dashboards, and integrating with big data solutions for predictive analysis</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Big Data Integration, Custom Reporting, AI Integration</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 15,000 - 50,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Security and Risk Management</h2>
+            <p class="subinfo">Mobile/Web Development | $10000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Implementing high-level security measures including DDoS protection, encryption, and regular penetration testing</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Incident Response, Compliance Audits, Data Encryption</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 10,000 - 30,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Performance and Scalability Optimization</h2>
+            <p class="subinfo">Mobile/Web Development | $5000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Ensuring high availability and scalability through load balancing, CDN integration, and database optimization</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Traffic Management, Global CDN Integration, Redundant Systems</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 5,000 - 25,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Custom Software and Application Development</h2>
+            <p class="subinfo">Mobile/Web Development | $30000 | 20-25 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Developing custom software solutions tailored to specific business needs. Creating complex web applications with advanced functionality. Providing ongoing support and iterative improvements.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Feature Complexity, Scalability Requirements, Ongoing Support</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 30,000 - 100,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Consulting and Strategy Development</h2>
+            <p class="subinfo">Mobile/Web Development | $100 | 5-7 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Offering consulting services for digital transformation and online strategy. Helping businesses choose the right technologies and platforms. Providing guidance on best practices in web development.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Industry Specialization, Long-Term Engagement, Strategic Implementation</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 100 - 250 per hour</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Website Redesign and Optimization</h2>
+            <p class="subinfo">Mobile/Web Development | $5000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Redesigning existing websites to improve performance and user experience. Updating designs to reflect current trends and branding. Conducting usability testing and implementing user feedback.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Scope of Redesign, User Feedback Integration, Brand Consistency</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 5,000 - 20,000+</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Migration and Platform Transition</h2>
+            <p class="subinfo">Mobile/Web Development | $3000 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Migrating websites or applications to new platforms or hosting providers. Ensuring a smooth transition with minimal downtime. Handling data migration and reconfiguration of services.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Size and Complexity of Site, Downtime Minimization, Data Integrity</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 3,000 - 10,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Accessibility and Compliance</h2>
+            <p class="subinfo">Mobile/Web Development | $2000 | 5-7 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Ensuring websites meet accessibility standards (WCAG, ADA); Making websites usable for people with disabilities; Conducting compliance audits and implementing necessary changes</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Level of Compliance, Ongoing Maintenance, User Testing</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 2,000 - 15,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Headshots</h2>
+            <p class="subinfo">Photography | $150 | 1-2 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Professional headshots for personal branding, LinkedIn profiles, and corporate needs. Includes 3 fully retouched images.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Additional images ($30 each), location-based session ($50 travel fee)</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 150-250</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Real Estate Photography</h2>
+            <p class="subinfo">Photography | $250 | 1-2 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> High-quality interior and exterior photos for property listings. Includes up to 25 edited images showcasing the best features of the property.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Twilight shots ($75)</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 250-500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Product Photography</h2>
+            <p class="subinfo">Photography | $200 | 1-2 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Studio-quality images for e-commerce or advertising. Pricing covers up to 5 products with basic retouching. Additional products can be included for $15 each.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Advanced styling/props ($50-$100 per setup), bulk pricing for large product catalogs (custom price).</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 200-400</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Photo Restoration</h2>
+            <p class="subinfo">Photography | $50 | 1-2 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Digitally restore old, damaged, or faded photographs. Pricing covers one photo and includes color correction, scratch removal, and minor reconstruction.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Heavily damaged photos ($75)</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 50-150</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Retouching</h2>
+            <p class="subinfo">Photography | $30 | 1-2 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Enhance and perfect images through professional editing. Includes skin smoothing, color correction, and background clean-up. Price is per image.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Complex edits like object removal ($50+), bulk pricing for multiple images (custom price)</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 30-100</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Group Photos</h2>
+            <p class="subinfo">Photography | $200 | 1-2 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Capture group portraits for families, teams, or special events. Includes 5 fully edited images.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Additional images ($30 each), outdoor or on-location fee ($75)</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 200-350</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Custom Chatbots</h2>
+            <p class="subinfo">Programming | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Develop and sell customized chatbot solutions for businesses.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> AI-powered chatbots, multi-platform compatibility</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 400 - 700</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Market Research</h2>
+            <p class="subinfo">Research | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Conduct market research and gather insights for business strategies.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Survey creation, trend analysis</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 200 - 500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Subscription Services</h2>
+            <p class="subinfo">Subscriptions | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Offer subscription-based services for exclusive content and newsletters.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Exclusive access, premium content</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 15 - 50/month</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Customer Support</h2>
+            <p class="subinfo">Support | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Provide customer support services by handling queries and responses.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> 24/7 support, escalation handling</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 150 - 300</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Tech Support</h2>
+            <p class="subinfo">Support | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Offer tech support and troubleshooting assistance.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Remote assistance, setup tutorials</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 150 - 300</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Web3 Consulting and Education</h2>
+            <p class="subinfo">Web3 | $2500 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Provide guidance and training on Web3 technologies, including blockchain, NFTs, and decentralized ecosystems.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Customized training modules, industry-specific consultations</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,000 - 5,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Smart Contract Development</h2>
+            <p class="subinfo">Web3 | $5000 | 4-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Design and deploy secure smart contracts for various blockchain platforms to automate transactions.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Multi-platform support, advanced testing options</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 2,000 - 10,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>NFT Integration</h2>
+            <p class="subinfo">Web3 | $11000 | 15-20 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Integrate non-fungible token functionality into platforms for digital asset creation and management.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Cross-chain compatibility, dynamic metadata options</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 3,000 - 15,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Decentralized Web Hosting</h2>
+            <p class="subinfo">Web3 | $1500 | 4-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Set up decentralized hosting solutions to ensure content availability and censorship resistance.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Scalable storage, enhanced privacy features</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 500 - 3,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Blockchain-Based Payment Integration</h2>
+            <p class="subinfo">Web3 | $4500 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Implement blockchain payment gateways to enable secure and fast cryptocurrency transactions.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Support for multiple cryptocurrencies, real-time transaction monitoring</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,500 - 7,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Custom Blockchain Solutions</h2>
+            <p class="subinfo">Web3 | $30000 | 25-30 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Develop tailored blockchain platforms to meet unique business requirements.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Custom consensus algorithms, modular architecture</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 10,000 - 50,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Decentralized Applications (DApps)</h2>
+            <p class="subinfo">Web3 | $45000 | 40-50 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Build user-friendly decentralized applications with blockchain-based backend systems.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Custom UI/UX design, integration with existing platforms</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 15,000 - 75,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Tokenization Services</h2>
+            <p class="subinfo">Web3 | $15000 | 15-20 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Assist in creating and managing digital tokens for assets, products, and services.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Regulatory-compliant token standards, asset-backed token creation</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 8,000 - 30,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Identity and Data Management Solutions</h2>
+            <p class="subinfo">Web3 | $25000 | 15-20 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Provide blockchain solutions for secure identity verification and data privacy.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Decentralized identity support, GDPR-compliant solutions</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 10,000 - 40,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Cross-Chain Solutions</h2>
+            <p class="subinfo">Web3 | $75000 | 25-30 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Enable seamless interoperability and data exchange between multiple blockchain networks.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Bridge development, real-time synchronization</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 20,000 - 100,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Enterprise Blockchain Integration</h2>
+            <p class="subinfo">Web3 | $150000 | 40-50 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Integrate blockchain systems into enterprise workflows for improved efficiency and security.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Custom API integrations, enterprise-grade scalability</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 50,000 - 250,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>DeFi Integration</h2>
+            <p class="subinfo">Web3 | $100000 | 40-50 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Incorporate decentralized finance protocols into platforms for lending, trading, and staking.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Yield farming integration, liquidity pool management</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 30,000 - 150,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Supply Chain Transparency</h2>
+            <p class="subinfo">Web3 | $200000 | 40-50 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Leverage blockchain to provide real-time tracking and verification of supply chain activities.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> IoT integration, tamper-proof audit trails</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 75,000 - 300,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Corporate Governance Solutions</h2>
+            <p class="subinfo">Web3 | $120000 | 40-50 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Develop blockchain-based systems for transparent corporate governance and voting.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Custom voting algorithms, shareholder management tools</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 40,000 - 200,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Security Token Offerings (STO)</h2>
+            <p class="subinfo">Web3 | $175000 | 40-50 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Facilitate the creation and issuance of security tokens for fundraising and investment.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 5</p>
+            <p><strong>Modifiers:</strong> Compliance with SEC regulations, investor dashboards</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 50,000 - 300,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Web3 Security Audits</h2>
+            <p class="subinfo">Web3 | $18000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Conduct comprehensive audits to ensure the security of Web3 applications and smart contracts.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Vulnerability assessments, penetration testing</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 5,000 - 25,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Interoperability Solutions</h2>
+            <p class="subinfo">Web3 | $85000 | 25-30 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Provide solutions to connect and integrate different blockchain networks efficiently.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Custom bridge protocols, hybrid chain compatibility</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 20,000 - 150,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Web3 Infrastructure Consulting</h2>
+            <p class="subinfo">Web3 | $35000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Offer strategic advice on building scalable and reliable Web3 infrastructure.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Performance optimization, future-proof architecture</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 10,000 - 50,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Regulatory Compliance</h2>
+            <p class="subinfo">Web3 | $55000 | 7-10 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Help businesses navigate and comply with blockchain and Web3-related regulations.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Global compliance support, legal risk assessment</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 15,000 - 75,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Basic Website Setup and Customization</h2>
+            <p class="subinfo">Wordpress | $500 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Setting up a WordPress site with essential plugins and a customized theme; Designing a simple, user-friendly layout that reflects the business’s brand; Creating basic pages (Home, About, Services, Contact)</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Custom page layouts, additional plugins installation</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 400 - 700</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>E-Commerce Integration</h2>
+            <p class="subinfo">Wordpress | $800 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Setting up WooCommerce or other e-commerce plugins. Configuring payment gateways and product pages.  Training the client on how to manage their online store.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Multi-vendor marketplace setup, advanced shipping options</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 700 - 1,200</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Website Maintenance and Support</h2>
+            <p class="subinfo">Wordpress | $300 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Regular updates for WordPress core, themes, and plugins; Backup and restore services; Security monitoring and malware removal</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> 24/7 support, priority incident response</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 250 - 500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>SEO Optimization</h2>
+            <p class="subinfo">Wordpress | $400 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Basic on-page SEO setup (title tags, meta descriptions, alt text); Installation and configuration of SEO plugins like Yoast SEO; Local SEO strategies for small businesses targeting local customers</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Schema markup setup, keyword research</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 350 - 600</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Content Management and Blog Setup</h2>
+            <p class="subinfo">Wordpress | $350 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Setting up a blog section and training on content management.  Creating and scheduling blog posts.  Ensuring the blog is optimized for SEO.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Custom categories, featured blog designs</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 300 - 500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Speed Optimization</h2>
+            <p class="subinfo">Wordpress | $300 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Implementing caching solutions; Image optimization; Minimizing CSS, JavaScript, and HTML</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Advanced caching strategies, CDN setup</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 250 - 450</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Advanced Customization and Theme Development</h2>
+            <p class="subinfo">Wordpress | $1000 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Developing custom themes tailored to the brand; Integrating advanced features like custom post types, fields, and taxonomies</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Additional page templates, custom animations</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 800 - 1,500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Advanced E-Commerce Solutions</h2>
+            <p class="subinfo">Wordpress | $1500 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Multi-currency and multi-language support.  Integration with CRM and ERP systems.  Subscription-based services and membership sites.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Recurring payment options, dynamic pricing</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,200 - 2,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Custom Plugin Development</h2>
+            <p class="subinfo">Wordpress | $1200 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Developing custom plugins to add unique functionality.  Modifying existing plugins to suit specific business needs.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Extended plugin functionality, API integrations</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,000 - 1,800</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Content Strategy and Management</h2>
+            <p class="subinfo">Wordpress | $600 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Developing a content strategy to drive engagement and conversions; Implementing content marketing tactics, including blogging, video, and social media integration</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Social media content planning, video editing support</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 500 - 900</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Analytics and Conversion Optimization</h2>
+            <p class="subinfo">Wordpress | $700 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Setting up Google Analytics, heatmaps, and conversion tracking; A/B testing of pages to improve conversion rates; Implementing user feedback mechanisms like surveys and reviews</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Detailed funnel analysis, custom tracking reports</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 600 - 1,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Ongoing Website Maintenance and Performance Optimization</h2>
+            <p class="subinfo">Wordpress | $500/month | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Regular performance audits and speed enhancements.  Proactive security measures and monitoring.  Custom reports and analytics review sessions.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Dedicated account manager, real-time monitoring</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 400 - 800/month</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Enterprise-Level WordPress Development</h2>
+            <p class="subinfo">Wordpress | $3000 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Building scalable WordPress multisite networks; Integrating WordPress with enterprise-level tools and platforms (CRM, ERP, etc.); Developing custom APIs for integration with other systems</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Custom dashboard integration, enterprise-grade security</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 2,500 - 4,500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Custom Theme and Plugin Development</h2>
+            <p class="subinfo">Wordpress | $2500 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Designing highly customized, brand-specific themes; Developing enterprise-grade plugins with complex functionalities; Continuous development and iterative updates based on business needs</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Iterative updates, multi-device testing</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 2,000 - 4,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Advanced E-Commerce and Marketplace Solutions</h2>
+            <p class="subinfo">Wordpress | $5000 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Creating large-scale online stores with hundreds or thousands of products; Developing custom checkout processes, user roles, and permission management; Integration with third-party logistics and inventory management systems</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Advanced inventory management, warehouse integration</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 4,000 - 7,500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Comprehensive SEO and Digital Marketing</h2>
+            <p class="subinfo">Wordpress | $2000 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Advanced SEO strategies including technical SEO audits, backlinking, and content optimization; Implementing large-scale digital marketing campaigns; Managing and optimizing PPC campaigns and social media ads</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Custom ad campaigns, ongoing SEO support</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,500 - 3,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Security and Compliance Services</h2>
+            <p class="subinfo">Wordpress | $1500 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Implementing enterprise-level security protocols; Ensuring compliance with industry regulations (GDPR, CCPA, etc.); Regular security audits and penetration testing</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Custom security dashboards, vulnerability fixes</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 1,200 - 2,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>High Availability and Performance Optimization</h2>
+            <p class="subinfo">Wordpress | $2500 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Implementing CDN, advanced caching, and database optimization; Setting up and managing redundant hosting and disaster recovery plans; Ensuring the site can handle high traffic with minimal downtime</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Failover systems, real-time traffic management</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 2,000 - 3,500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Custom Reporting and Data Analysis</h2>
+            <p class="subinfo">Wordpress | $800 | 3-5 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Developing custom dashboards and reports for business intelligence.  Integrating WordPress data with other business systems for holistic insights.  Ongoing data analysis to inform strategy and decision-making.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 3</p>
+            <p><strong>Modifiers:</strong> Interactive dashboards, predictive analytics</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 700 - 1,200</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Training and Consulting</h2>
+            <p class="subinfo">Wordpress | $500 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Providing WordPress training for in-house teams.  Offering consultation services on best practices and digital strategy.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Custom training modules, hands-on workshops</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 400 - 700</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Website Redesign and Rebranding</h2>
+            <p class="subinfo">Wordpress | $1000 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Redesigning existing websites to align with new branding or market shifts. Improving user experience (UX) and user interface (UI).</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Prototyping, A/B testing for design elements</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 800 - 1,500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Migration Services</h2>
+            <p class="subinfo">Wordpress | $600 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Migrating websites to WordPress from other platforms.  Transferring WordPress sites between hosting providers without downtime.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Data validation, SEO migration plans</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 500 - 900</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Accessibility and Usability Enhancements</h2>
+            <p class="subinfo">Wordpress | $700 | 1-3 Business Days</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Ensuring websites meet accessibility standards (WCAG 2.1). Conducting usability testing and making necessary adjustments.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Custom accessibility testing, detailed compliance reports</p>
+            <p><strong>Unit:</strong> Project</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 600 - 1,000</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Blog Writing</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Generate ideas, outlines, and content for blogs. Offer writing services to clients.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> SEO optimization, long-form content</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 40 - 100</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Copywriting</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Develop marketing copy for websites, emails, and advertisements.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Brand tone customization, multiple revisions</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 100 - 200</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Editing and Proofreading</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Assist with editing and proofreading tasks to ensure high-quality content.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Rush service, advanced grammar check</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 50 - 100</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Transcription Services</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Offer transcription services for audio and video content.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Timestamped transcription, multilingual support</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 80 - 150</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Translation Services</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Help translate text between English and Spanish language for various purposes.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Additional languages, priority delivery</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 100 - 200</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Story Writing</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Write stories, novels, or screenplays. Offer ghostwriting services.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Illustrations, co-authoring</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 300 - 600</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Game Development</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Create storylines, dialogues, and game content for game development.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Custom characters, plotlines</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 800 - 1,500</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>E-books and Guides</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Create and sell e-books, guides, and templates on various topics.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> Printable templates, resale rights</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 80 - 120</p>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="card-header" onclick="toggleDetails(this)">
+            <h2>Ad Copy</h2>
+            <p class="subinfo">Writing | $50 | 1 Hour</p>
+        </div>
+        <div class="card-details">
+            <p><strong>Description:</strong> Create effective ad copy for online advertisements.</p>
+            <p><strong>Delivery Method:</strong> Digital Delivery</p>
+            <p><strong>Team Size:</strong> 1</p>
+            <p><strong>Modifiers:</strong> A/B testing, conversion-focused writing</p>
+            <p><strong>Unit:</strong> Hour</p>
+            <p><strong>Fair Market Price Range (USA):</strong> 80 - 150</p>
+        </div>
+    </div>
+    
+
+<script>
+function toggleDetails(header) {
+    var details = header.nextElementSibling;
+    if (details.style.display === "block") {
+        details.style.display = "none";
+    } else {
+        details.style.display = "block";
+    }
+}
+</script>
+
+</body>
+</html>
