@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Business Departments Prototype</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 1rem;
+        background: #f0f0f0;
+    }
+    .accordion {
+        background-color: #333366;
+        color: white;
+        cursor: pointer;
+        padding: 1rem;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1rem;
+        transition: background-color 0.2s ease;
+        margin-top: 0.5rem;
+    }
+    .accordion:hover {
+        background-color: #5555aa;
+    }
+    .panel {
+        padding: 0 1rem;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        border-top: none;
+    }
+    .subcard {
+        margin: 1rem 0;
+        padding: 1rem;
+        background: #eef3fc;
+        border-left: 5px solid #4466cc;
+    }
+    h4 {
+        margin: 0 0 0.5rem 0;
+    }
+</style>
+</head>
+<body>
+
+<h2>Tech Business Departments</h2>
+
+    <button class="accordion">Established Stage - Finance & Strategy</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Treasury</h4>
+            <p><strong>Process:</strong> Managing cash flow, capital investments, and financial risks.</p>
+            <p><strong>Key Focus:</strong> Optimizing capital structure and resource allocation.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Corporate Strategy</h4>
+            <p><strong>Process:</strong> Long-term business planning, market analysis, and competitive positioning. Often involves M&A.</p>
+            <p><strong>Key Focus:</strong> Ensuring the company’s vision and strategy align with market trends.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Established Stage - HR & Talent</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Talent Acquisition</h4>
+            <p><strong>Process:</strong> Sourcing and attracting high-level talent for specialized roles.</p>
+            <p><strong>Key Focus:</strong> Filling critical positions that drive business growth.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Learning & Development</h4>
+            <p><strong>Process:</strong> Providing training, mentoring, and development programs to upskill employees.</p>
+            <p><strong>Key Focus:</strong> Ensuring employees grow in line with the business’s needs.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>DEI (Diversity, Equity, Inclusion)</h4>
+            <p><strong>Process:</strong> Initiatives to foster diverse and inclusive workplace culture.</p>
+            <p><strong>Key Focus:</strong> Policy development and training, promoting fairness and representation across the organization.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Established Stage - Legal & Compliance</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Intellectual Property</h4>
+            <p><strong>Process:</strong> Managing patents, trademarks, and copyrights. Protecting proprietary technologies.</p>
+            <p><strong>Key Focus:</strong> Safeguarding innovation and competitive advantage.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Regulatory Compliance</h4>
+            <p><strong>Process:</strong> Adhering to industry standards, government regulations, and data protection laws (e.g., GDPR).</p>
+            <p><strong>Key Focus:</strong> Avoiding legal penalties and maintaining business integrity.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Established Stage - Marketing</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4> Sales & Growth</h4>
+            <p><strong>Process:</strong> Digital Marketing</p>
+            <p><strong>Key Focus:</strong> SEO, PPC, social media, content marketing, and analytics-driven campaigns. Iterative A/B testing: Reaching new customers online and improving lead generation.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4> Sales & Growth</h4>
+            <p><strong>Process:</strong> Partner/Channel Management</p>
+            <p><strong>Key Focus:</strong> Managing third-party partners, affiliates, and resellers to drive revenue: Expanding reach via external partners.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4> Sales & Growth</h4>
+            <p><strong>Process:</strong> Customer Success</p>
+            <p><strong>Key Focus:</strong> Proactive management of customer accounts to ensure satisfaction. Upselling, renewals, and post-sale support: Maximizing lifetime customer value (LTV) and reducing churn.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4> Sales & Growth</h4>
+            <p><strong>Process:</strong> CRM Management</p>
+            <p><strong>Key Focus:</strong> Managing customer data and workflows through CRM platforms (e.g., Salesforce): Optimizing customer relationships and sales efficiency.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Established Stage - Operations & Infrastructure</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>IT Infrastructure</h4>
+            <p><strong>Process:</strong> Scaling and optimizing networks, servers, and databases to support higher traffic and larger teams.</p>
+            <p><strong>Key Focus:</strong> Maintaining uptime and availability for global operations.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Cloud Management</h4>
+            <p><strong>Process:</strong> Managing cloud-based services (AWS, Azure), cost optimization, and maintaining data redundancy.</p>
+            <p><strong>Key Focus:</strong> Efficient use of cloud infrastructure to support scalability.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Cybersecurity</h4>
+            <p><strong>Process:</strong> Implementing advanced security measures (e.g., firewalls, intrusion detection systems). Regular vulnerability assessments and patches.</p>
+            <p><strong>Key Focus:</strong> Preventing breaches and safeguarding critical assets.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>DevOps</h4>
+            <p><strong>Process:</strong> Continuous Integration/Continuous Deployment (CI/CD) to automate and streamline the release process.</p>
+            <p><strong>Key Focus:</strong> Speeding up release cycles while ensuring system stability.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Established Stage - Product & Innovation</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Product Management</h4>
+            <p><strong>Process:</strong> Roadmap planning, prioritization of features, and cross-functional collaboration.</p>
+            <p><strong>Key Focus:</strong> Aligning product development with long-term strategy.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Engineering</h4>
+            <p><strong>Process:</strong> Large-scale software architecture, feature enhancement, and technical debt management.</p>
+            <p><strong>Key Focus:</strong> Scaling technology to meet increasing demand while ensuring reliability.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>AI/ML Research</h4>
+            <p><strong>Process:</strong> Research, model training, and deployment of machine learning solutions.</p>
+            <p><strong>Key Focus:</strong> Pushing innovation using AI technologies to automate or enhance products.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Growth Stage - Finance & Legal</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>FP&A (Financial Planning & Analysis)</h4>
+            <p><strong>Process:</strong> Creating budgets, financial forecasts, and variance analysis.</p>
+            <p><strong>Key Focus:</strong> Supporting growth with accurate financial data for decision-making.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Legal & Compliance</h4>
+            <p><strong>Process:</strong> Contracts management, risk mitigation, and compliance checks for new regions and regulations.</p>
+            <p><strong>Key Focus:</strong> Protecting the company as it scales globally.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Growth Stage - HR & People Ops</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Recruiting</h4>
+            <p><strong>Process:</strong> Sourcing, screening, interviewing, and onboarding candidates using ATS (Applicant Tracking Systems).</p>
+            <p><strong>Key Focus:</strong> Hiring top talent to meet growth needs.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Employee Engagement</h4>
+            <p><strong>Process:</strong> Surveys, team-building activities, and feedback mechanisms to maintain a healthy work culture.</p>
+            <p><strong>Key Focus:</strong> Improving employee morale and reducing turnover.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Growth Stage - Operations</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>IT/Infrastructure</h4>
+            <p><strong>Process:</strong> Managing hardware, software, networks, and cloud services. Routine monitoring and system updates.</p>
+            <p><strong>Key Focus:</strong> Ensuring systems scale smoothly as the company grows.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Data Security</h4>
+            <p><strong>Process:</strong> Encryption, access control, and monitoring of data to prevent breaches. Regular audits and security testing.</p>
+            <p><strong>Key Focus:</strong> Protecting data privacy and adhering to security standards (e.g., ISO, SOC2).</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Customer Support</h4>
+            <p><strong>Process:</strong> Multi-channel support (phone, chat, email) to handle customer inquiries and issues.</p>
+            <p><strong>Key Focus:</strong> Increasing customer satisfaction and retention.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Growth Stage - Product & Engineering</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>R&D</h4>
+            <p><strong>Process:</strong> Research new technologies, trends, and innovative product ideas. Feasibility studies and prototyping are key.</p>
+            <p><strong>Key Focus:</strong> Staying competitive by innovating and improving offerings.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>QA Testing</h4>
+            <p><strong>Process:</strong> Automated and manual testing processes to identify and resolve bugs before launch.</p>
+            <p><strong>Key Focus:</strong> Delivering bug-free, high-quality products.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Growth Stage - Sales & Marketing</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Business Development</h4>
+            <p><strong>Process:</strong> Identify partnerships, strategic alliances, and new revenue streams.</p>
+            <p><strong>Key Focus:</strong> Expanding market presence and finding new opportunities for growth.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Performance Marketing</h4>
+            <p><strong>Process:</strong> Data-driven campaigns using KPIs (e.g., CTR, ROI). Optimize ad performance through digital channels.</p>
+            <p><strong>Key Focus:</strong> Scaling paid campaigns efficiently for ROI.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Public Relations</h4>
+            <p><strong>Process:</strong> Media outreach, press releases, and event management. Crisis management strategies are also important.</p>
+            <p><strong>Key Focus:</strong> Managing the company's image and reputation.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Startup Stage - Finance & Admin</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Accounting</h4>
+            <p><strong>Process:</strong> Record financial transactions, prepare financial statements, and ensure compliance with regulations.</p>
+            <p><strong>Key Focus:</strong> Cash flow management, tax filing, and maintaining financial health.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Legal/Compliance</h4>
+            <p><strong>Process:</strong> Legal contracts, IP protection, and maintaining compliance with business regulations (e.g., GDPR).</p>
+            <p><strong>Key Focus:</strong> Minimizing legal risks and ensuring smooth operations.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Startup Stage - Operations</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>IT Support</h4>
+            <p><strong>Process:</strong> Helpdesk and ticketing systems are used to handle technical issues.</p>
+            <p><strong>Key Focus:</strong> Ensuring employees have seamless access to IT resources.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>DevOps</h4>
+            <p><strong>Process:</strong> Integrates development and operations to automate deployment processes using tools like Jenkins, Docker, Kubernetes.</p>
+            <p><strong>Key Focus:</strong> Speeding up development cycles while ensuring system reliability.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Startup Stage - Product Development</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Engineering/Software Development</h4>
+            <p><strong>Process:</strong> Agile methodologies (e.g., Scrum, Kanban) are used to manage software creation. The lifecycle involves planning, coding, testing, and deployment, often in iterative cycles.</p>
+            <p><strong>Key Focus:</strong> Building MVP (Minimum Viable Product), releasing features quickly, and adjusting based on feedback.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>UX/UI Design</h4>
+            <p><strong>Process:</strong> Involves researching user needs, creating wireframes and prototypes, and performing usability testing.</p>
+            <p><strong>Key Focus:</strong> Creating intuitive, user-friendly designs that enhance product usability.</p>
+        </div>
+        
+    </div>
+    
+    <button class="accordion">Startup Stage - Sales & Marketing</button>
+    <div class="panel">
+        
+        <div class="subcard">
+            <h4>Growth Marketing</h4>
+            <p><strong>Process:</strong> Uses data-driven strategies (e.g., A/B testing, paid ads) to increase user acquisition.</p>
+            <p><strong>Key Focus:</strong> Rapid experimentation and iteration to find scalable growth tactics.</p>
+        </div>
+        
+        <div class="subcard">
+            <h4>Sales</h4>
+            <p><strong>Process:</strong> Identifying leads, nurturing them through outreach, and converting them into customers using CRM tools.</p>
+            <p><strong>Key Focus:</strong> Generating and closing deals quickly.</p>
+        </div>
+        
+    </div>
+    
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
