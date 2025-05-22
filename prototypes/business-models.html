@@ -1,273 +1,330 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Business Models Prototype</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Model Slideshow</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    html, body {
       margin: 0;
-      padding: 1rem;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: sans-serif;
       background: #f4f4f4;
     }
-
+    .slideshow {
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      position: relative;
+    }
+    .slideshow-inner {
+      display: flex;
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+    }
+    .slide {
+      min-width: 100vw;
+      height: 100vh;
+      box-sizing: border-box;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .card {
       background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-bottom: 1rem;
-      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 2rem;
+      max-width: 90vw;
+      max-height: 90vh;
+      overflow-y: auto;
     }
-
-    .card h2 {
-      font-size: 1.25rem;
-      margin: 0;
+    h2 { margin-top: 0; font-size: 1.5rem; color: #333; }
+    .tag { font-size: 0.85rem; color: #888; margin-bottom: 0.5rem; }
+    .label { font-weight: bold; display: block; margin-top: 0.5rem; }
+    p { margin: 0.4rem 0; font-size: 1rem; color: #444; }
+    .nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
       color: #333;
+      padding: 0 1rem;
+      cursor: pointer;
+      z-index: 10;
+      user-select: none;
     }
-
-    .card .tag {
-      font-size: 0.85rem;
-      color: #666;
-      margin-top: 0.25rem;
-    }
-
-    .card p {
-      margin: 0.5rem 0;
-      color: #555;
-      font-size: 0.95rem;
-    }
-
-    .card .label {
-      font-weight: bold;
-      margin-top: 0.5rem;
-      display: block;
-      color: #222;
-    }
+    .prev { left: 0; }
+    .next { right: 0; }
   </style>
 </head>
 <body>
+  <div id="original-cards" style="display: none;">
+    <div class="card">
+      <h2>Software as a Service (SaaS)</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Subscription-based access to cloud-hosted software</p>
+      <span class="label">Revenue Source:</span><p>Monthly/annual subscriptions</p>
+      <span class="label">Examples:</span><p>Salesforce, Slack, HubSpot, Zoom</p>
+      <span class="label">Key Metrics:</span><p>MRR, CAC, LTV, churn rate</p>
+      <span class="label">Use Case:</span><p>Cloud software for business workflows</p>
+    </div>
 
     <div class="card">
-        <h2>Software as a Service (SaaS)</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Subscription-based access to cloud-hosted software</p>
-        <p><span class="label">Revenue Source:</span> Monthly/annual subscriptions</p>
-        <p><span class="label">Key Metrics:</span> MRR, CAC, LTV, churn rate</p>
-        <p><span class="label">Use Case:</span> Cloud software for business workflows</p>
-        <p><span class="label">Examples:</span> Salesforce, Slack, HubSpot, Zoom</p>
+      <h2>Platform/IaaS (PaaS/IaaS)</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Cloud infrastructure or platforms for developers</p>
+      <span class="label">Revenue Source:</span><p>Usage-based pricing or subscriptions</p>
+      <span class="label">Examples:</span><p>AWS, Microsoft Azure, Google Cloud</p>
+      <span class="label">Key Metrics:</span><p>Usage rates, uptime, adoption</p>
+      <span class="label">Use Case:</span><p>Cloud platforms for app deployment</p>
     </div>
-    
+
     <div class="card">
-        <h2>Platform/IaaS (PaaS/IaaS)</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Cloud infrastructure or platforms for developers</p>
-        <p><span class="label">Revenue Source:</span> Usage-based pricing or subscriptions</p>
-        <p><span class="label">Key Metrics:</span> Usage rates, uptime, adoption</p>
-        <p><span class="label">Use Case:</span> Cloud platforms for app deployment</p>
-        <p><span class="label">Examples:</span> AWS, Microsoft Azure, Google Cloud</p>
+      <h2>Marketplace</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Connects buyers and sellers via a digital platform</p>
+      <span class="label">Revenue Source:</span><p>Transaction fees, listing fees, commissions</p>
+      <span class="label">Examples:</span><p>Amazon, Uber, Airbnb, Fiverr</p>
+      <span class="label">Key Metrics:</span><p>GMV, take rate, liquidity ratio</p>
+      <span class="label">Use Case:</span><p>Connecting buyers and sellers</p>
     </div>
-    
+
     <div class="card">
-        <h2>Marketplace</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Connects buyers and sellers via a digital platform</p>
-        <p><span class="label">Revenue Source:</span> Transaction fees, listing fees, commissions</p>
-        <p><span class="label">Key Metrics:</span> GMV, take rate, liquidity ratio</p>
-        <p><span class="label">Use Case:</span> Connecting buyers and sellers</p>
-        <p><span class="label">Examples:</span> Amazon, Uber, Airbnb, Fiverr</p>
+      <h2>Freemium</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Core product is free, advanced features are paid</p>
+      <span class="label">Revenue Source:</span><p>Upgrades from free to paid plans</p>
+      <span class="label">Examples:</span><p>Dropbox, Zoom, Notion</p>
+      <span class="label">Key Metrics:</span><p>Conversion rate, retention, CAC</p>
+      <span class="label">Use Case:</span><p>Free core product with paid upgrades</p>
     </div>
-    
+
     <div class="card">
-        <h2>Freemium</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Core product is free advanced features are paid</p>
-        <p><span class="label">Revenue Source:</span> Upgrades from free to paid plans</p>
-        <p><span class="label">Key Metrics:</span> Conversion rate, retention, CAC</p>
-        <p><span class="label">Use Case:</span> Free core product with paid upgrades</p>
-        <p><span class="label">Examples:</span> Dropbox, Zoom, Notion, Free-to-paid conversion, user retention, CAC</p>
+      <h2>Ad-Supported</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Free to users, revenue from advertisers</p>
+      <span class="label">Revenue Source:</span><p>Ad impressions, clicks, data monetization</p>
+      <span class="label">Examples:</span><p>Google, Facebook, YouTube</p>
+      <span class="label">Key Metrics:</span><p>Ad revenue, impressions, engagement</p>
+      <span class="label">Use Case:</span><p>Free content monetized by ads</p>
     </div>
-    
+
     <div class="card">
-        <h2>Ad-Supported</h2>
-        <div class="tag">B2C</div>
-        <p><span class="label">Description:</span> Free to users revenue from advertisers</p>
-        <p><span class="label">Revenue Source:</span> Ad impressions, clicks, data monetization</p>
-        <p><span class="label">Key Metrics:</span> Ad revenue, impressions, engagement</p>
-        <p><span class="label">Use Case:</span> Free content monetized by ads</p>
-        <p><span class="label">Examples:</span> Google, Facebook, YouTube, Ad revenue per user, impressions, engagement</p>
+      <h2>E-commerce</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Online sale of products direct to consumers or businesses</p>
+      <span class="label">Revenue Source:</span><p>Sales margins, fulfillment fees, premium listings</p>
+      <span class="label">Examples:</span><p>Shopify, Amazon, Etsy</p>
+      <span class="label">Key Metrics:</span><p>CAC, AOV, conversion rate</p>
+      <span class="label">Use Case:</span><p>Online sale of physical products</p>
     </div>
-    
+
     <div class="card">
-        <h2>E-commerce</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Online sale of products direct to consumers or businesses</p>
-        <p><span class="label">Revenue Source:</span> Sales margins, fulfillment fees, premium listings</p>
-        <p><span class="label">Key Metrics:</span> CAC, AOV, conversion rate</p>
-        <p><span class="label">Use Case:</span> Online sale of physical products</p>
-        <p><span class="label">Examples:</span> Shopify, Amazon, Etsy</p>
+      <h2>Subscription Box / Hardware+Software</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Physical product bundled with ongoing software or services</p>
+      <span class="label">Revenue Source:</span><p>Hardware sales + recurring SaaS</p>
+      <span class="label">Examples:</span><p>Peloton, Tesla, Apple</p>
+      <span class="label">Key Metrics:</span><p>Device sales, attach rate, MRR</p>
+      <span class="label">Use Case:</span><p>Hardware bundled with subscription services</p>
     </div>
-    
+
     <div class="card">
-        <h2>Subscription Box / Hardware+Software</h2>
-        <div class="tag">B2C</div>
-        <p><span class="label">Description:</span> Physical product bundled with ongoing software or services</p>
-        <p><span class="label">Revenue Source:</span> Hardware sales + recurring SaaS</p>
-        <p><span class="label">Key Metrics:</span> Device sales, attach rate, MRR</p>
-        <p><span class="label">Use Case:</span> Hardware bundled with subscription services</p>
-        <p><span class="label">Examples:</span> Peloton, Tesla, Apple</p>
+      <h2>Licensing / Enterprise Software</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Paid licenses to use proprietary software</p>
+      <span class="label">Revenue Source:</span><p>Perpetual or annual license fees, support</p>
+      <span class="label">Examples:</span><p>Oracle, SAP</p>
+      <span class="label">Key Metrics:</span><p>Renewals, deal size, seat count</p>
+      <span class="label">Use Case:</span><p>Licensed software for enterprise operations</p>
     </div>
-    
+
     <div class="card">
-        <h2>Licensing / Enterprise Software</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Paid licenses to use proprietary software</p>
-        <p><span class="label">Revenue Source:</span> Perpetual or annual license fees, support</p>
-        <p><span class="label">Key Metrics:</span> Renewals, deal size, seat count</p>
-        <p><span class="label">Use Case:</span> Licensed software for enterprise operations</p>
-        <p><span class="label">Examples:</span> Oracle, SAP</p>
+      <h2>Open Source with Paid Services</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Free core product with monetized services or features</p>
+      <span class="label">Revenue Source:</span><p>Support contracts, premium features, hosting</p>
+      <span class="label">Examples:</span><p>Red Hat, GitLab, Elastic</p>
+      <span class="label">Key Metrics:</span><p>Community growth, conversion, contracts</p>
+      <span class="label">Use Case:</span><p>Free core with paid features or support</p>
     </div>
-    
+
     <div class="card">
-        <h2>Open Source with Paid Services</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Free core product with monetized services or features</p>
-        <p><span class="label">Revenue Source:</span> Support contracts, premium features, hosting</p>
-        <p><span class="label">Key Metrics:</span> Community growth, conversion, contracts</p>
-        <p><span class="label">Use Case:</span> Free core with paid features or support</p>
-        <p><span class="label">Examples:</span> Red Hat, GitLab, Elastic</p>
+      <h2>Data-as-a-Service (DaaS)</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Access to datasets or APIs for integration</p>
+      <span class="label">Revenue Source:</span><p>Subscriptions or pay-per-use</p>
+      <span class="label">Examples:</span><p>Clearbit, Crunchbase, Snowflake</p>
+      <span class="label">Key Metrics:</span><p>API usage, freshness, segments</p>
+      <span class="label">Use Case:</span><p>APIs delivering real-time data</p>
     </div>
-    
+
     <div class="card">
-        <h2>Data-as-a-Service (DaaS)</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Access to datasets or APIs for integration</p>
-        <p><span class="label">Revenue Source:</span> Subscriptions or pay-per-use</p>
-        <p><span class="label">Key Metrics:</span> API usage, freshness, segments</p>
-        <p><span class="label">Use Case:</span> APIs delivering real-time data</p>
-        <p><span class="label">Examples:</span> Clearbit, Crunchbase, Snowflake</p>
+      <h2>AI-as-a-Service / ML Platforms</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Machine learning tools/models offered via API or platform</p>
+      <span class="label">Revenue Source:</span><p>Usage-based or enterprise subscriptions</p>
+      <span class="label">Examples:</span><p>OpenAI, Hugging Face, DataRobot</p>
+      <span class="label">Key Metrics:</span><p>Inference volume, latency, accuracy</p>
+      <span class="label">Use Case:</span><p>APIs providing pre-trained AI models</p>
     </div>
-    
+
     <div class="card">
-        <h2>AI-as-a-Service / ML Platforms</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Machine learning tools/models offered via API or platform</p>
-        <p><span class="label">Revenue Source:</span> Usage-based or enterprise subscriptions</p>
-        <p><span class="label">Key Metrics:</span> Inference volume, latency, accuracy</p>
-        <p><span class="label">Use Case:</span> APIs providing pre-trained AI models</p>
-        <p><span class="label">Examples:</span> OpenAI, Hugging Face, DataRobot</p>
+      <h2>Productized Services</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Standardized tech services packaged like products</p>
+      <span class="label">Revenue Source:</span><p>Fixed-fee pricing per package or tier</p>
+      <span class="label">Examples:</span><p>Design Pickle, ManyPixels</p>
+      <span class="label">Key Metrics:</span><p>CAC, MRR, churn, delivery time</p>
+      <span class="label">Use Case:</span><p>Standardized service packages for businesses</p>
     </div>
-    
+
     <div class="card">
-        <h2>Productized Services</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Standardized tech services packaged like products</p>
-        <p><span class="label">Revenue Source:</span> Fixed-fee pricing per package or tier</p>
-        <p><span class="label">Key Metrics:</span> CAC, MRR, churn, delivery time</p>
-        <p><span class="label">Use Case:</span> Standardized service packages for businesses</p>
-        <p><span class="label">Examples:</span> Design Pickle, ManyPixels</p>
+      <h2>Usage-Based / Pay-as-You-Go</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Charges customers based on actual usage</p>
+      <span class="label">Revenue Source:</span><p>Consumption billing</p>
+      <span class="label">Examples:</span><p>Twilio, Stripe, OpenAI</p>
+      <span class="label">Key Metrics:</span><p>Usage, ARPU, COGS, margin</p>
+      <span class="label">Use Case:</span><p>Pay-per-use APIs or tools</p>
     </div>
-    
+
     <div class="card">
-        <h2>Usage-Based / Pay-as-You-Go</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Charges customers based on actual usage</p>
-        <p><span class="label">Revenue Source:</span> Consumption billing</p>
-        <p><span class="label">Key Metrics:</span> Usage, ARPU, COGS, margin</p>
-        <p><span class="label">Use Case:</span> Pay-per-use APIs or tools</p>
-        <p><span class="label">Examples:</span> Twilio, Stripe, OpenAI</p>
+      <h2>Affiliate / Referral-Based</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Earns fees for referring users to third-party products</p>
+      <span class="label">Revenue Source:</span><p>Referral fees, affiliate commissions</p>
+      <span class="label">Examples:</span><p>NerdWallet, Honey, Skimlinks</p>
+      <span class="label">Key Metrics:</span><p>CTR, conversion, CPA, LTV</p>
+      <span class="label">Use Case:</span><p>Revenue from partner or referral links</p>
     </div>
-    
+
     <div class="card">
-        <h2>Affiliate / Referral-Based</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Earns fees for referring users to third-party products</p>
-        <p><span class="label">Revenue Source:</span> Referral fees, affiliate commissions</p>
-        <p><span class="label">Key Metrics:</span> CTR, conversion, CPA, LTV</p>
-        <p><span class="label">Use Case:</span> Revenue from partner or referral links</p>
-        <p><span class="label">Examples:</span> NerdWallet, Honey, Skimlinks</p>
+      <h2>Crowdsourced / Community-Driven</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Product or content created by a user community</p>
+      <span class="label">Revenue Source:</span><p>Ads, sponsorships, donations, premium features</p>
+      <span class="label">Examples:</span><p>Wikipedia, Reddit, Stack Overflow</p>
+      <span class="label">Key Metrics:</span><p>Contributors, content quality, DAU</p>
+      <span class="label">Use Case:</span><p>Platforms built on user contributions</p>
     </div>
-    
+
     <div class="card">
-        <h2>Crowdsourced / Community-Driven</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Product or content created by a user community</p>
-        <p><span class="label">Revenue Source:</span> Ads, sponsorships, donations, premium features</p>
-        <p><span class="label">Key Metrics:</span> Contributors, content quality, DAU</p>
-        <p><span class="label">Use Case:</span> Platforms built on user contributions</p>
-        <p><span class="label">Examples:</span> Wikipedia, Reddit, Stack Overflow</p>
+      <h2>Tokenized / Web3 (Blockchain-based)</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Users transact with or earn crypto tokens</p>
+      <span class="label">Revenue Source:</span><p>Token issuance, transaction fees, staking</p>
+      <span class="label">Examples:</span><p>Uniswap, Axie Infinity, Helium</p>
+      <span class="label">Key Metrics:</span><p>Token volume, wallet growth, fees</p>
+      <span class="label">Use Case:</span><p>Crypto-based decentralized platforms</p>
     </div>
-    
+
     <div class="card">
-        <h2>Tokenized / Web3 (Blockchain-based)</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Users transact with or earn crypto tokens</p>
-        <p><span class="label">Revenue Source:</span> Token issuance, transaction fees, staking</p>
-        <p><span class="label">Key Metrics:</span> Token volume, wallet growth, fees</p>
-        <p><span class="label">Use Case:</span> Crypto-based decentralized platforms</p>
-        <p><span class="label">Examples:</span> Uniswap, Axie Infinity, Helium</p>
+      <h2>Licensing IP / White-Labeling</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Technology licensed or rebranded by other businesses</p>
+      <span class="label">Revenue Source:</span><p>Licensing fees, royalties</p>
+      <span class="label">Examples:</span><p>White-label fintech platforms, AI SDKs</p>
+      <span class="label">Key Metrics:</span><p>License count, renewals, royalties</p>
+      <span class="label">Use Case:</span><p>Rebranded tech sold to other companies</p>
     </div>
-    
+
     <div class="card">
-        <h2>Licensing IP / White-Labeling</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Technology licensed or rebranded by other businesses</p>
-        <p><span class="label">Revenue Source:</span> Licensing fees, royalties</p>
-        <p><span class="label">Key Metrics:</span> License count, renewals, royalties</p>
-        <p><span class="label">Use Case:</span> Rebranded tech sold to other companies</p>
-        <p><span class="label">Examples:</span> White-label fintech platforms, AI SDKs</p>
+      <h2>Hardware-as-a-Service (HaaS)</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Hardware leased with service/software integration</p>
+      <span class="label">Revenue Source:</span><p>Subscription or lease payments</p>
+      <span class="label">Examples:</span><p>Cisco Meraki, Ring for Business</p>
+      <span class="label">Key Metrics:</span><p>Utilization, ACV, churn, support costs</p>
+      <span class="label">Use Case:</span><p>Leased hardware with service layers</p>
     </div>
-    
+
     <div class="card">
-        <h2>Hardware-as-a-Service (HaaS)</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Hardware leased with service/software integration</p>
-        <p><span class="label">Revenue Source:</span> Subscription or lease payments</p>
-        <p><span class="label">Key Metrics:</span> Utilization, ACV, churn, support costs</p>
-        <p><span class="label">Use Case:</span> Leased hardware with service layers</p>
-        <p><span class="label">Examples:</span> Cisco Meraki, Ring for Business</p>
+      <h2>Microtransactions / In-App Purchases</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Small purchases made within apps or games</p>
+      <span class="label">Revenue Source:</span><p>Volume of small payments (e.g. $0.99)</p>
+      <span class="label">Examples:</span><p>Fortnite, Candy Crush, Roblox</p>
+      <span class="label">Key Metrics:</span><p>ARPPU, conversion, retention</p>
+      <span class="label">Use Case:</span><p>Small in-app digital purchases</p>
     </div>
-    
+
     <div class="card">
-        <h2>Microtransactions / In-App Purchases</h2>
-        <div class="tag">B2C</div>
-        <p><span class="label">Description:</span> Small purchases made within apps or games</p>
-        <p><span class="label">Revenue Source:</span> Volume of small payments (e.g. $0.99)</p>
-        <p><span class="label">Key Metrics:</span> ARPPU, conversion, retention</p>
-        <p><span class="label">Use Case:</span> Small in-app digital purchases</p>
-        <p><span class="label">Examples:</span> Fortnite, Candy Crush, Roblox</p>
+      <h2>Razor and Blade</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Base product sold cheaply to drive consumable sales</p>
+      <span class="label">Revenue Source:</span><p>Consumables, add-ons, app store sales</p>
+      <span class="label">Examples:</span><p>Xbox + games, printers + ink, Oculus + apps</p>
+      <span class="label">Key Metrics:</span><p>Adoption rate, attach rate, margin</p>
+      <span class="label">Use Case:</span><p>Low-cost hardware with recurring add-ons</p>
     </div>
-    
+
     <div class="card">
-        <h2>Razor and Blade</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Base product sold cheaply to drive consumable sales</p>
-        <p><span class="label">Revenue Source:</span> Consumables, add-ons, app store sales</p>
-        <p><span class="label">Key Metrics:</span> Adoption rate, attach rate, margin</p>
-        <p><span class="label">Use Case:</span> Low-cost hardware with recurring add-ons</p>
-        <p><span class="label">Examples:</span> Xbox + games, printers + ink, Oculus + apps</p>
+      <h2>Franchise / Platform Franchise</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Licensing a business model to third parties</p>
+      <span class="label">Revenue Source:</span><p>Franchise fees, royalties</p>
+      <span class="label">Examples:</span><p>Shopify (like-platform franchise)</p>
+      <span class="label">Key Metrics:</span><p>Retention, royalties, onboarding</p>
+      <span class="label">Use Case:</span><p>Replicable business platforms for partners</p>
     </div>
-    
+
     <div class="card">
-        <h2>Franchise / Platform Franchise</h2>
-        <div class="tag">B2B</div>
-        <p><span class="label">Description:</span> Licensing a business model to third parties</p>
-        <p><span class="label">Revenue Source:</span> Franchise fees, royalties</p>
-        <p><span class="label">Key Metrics:</span> Retention, royalties, onboarding</p>
-        <p><span class="label">Use Case:</span> Replicable business platforms for partners</p>
-        <p><span class="label">Examples:</span> Shopify (like-platform franchise)</p>
+      <h2>Hybrid Models</h2>
+      <div class="tag">Business Model</div>
+      <span class="label">Description:</span><p>Combining two or more business models</p>
+      <span class="label">Revenue Source:</span><p>Mixed—subscriptions, ads, usage fees, etc.</p>
+      <span class="label">Examples:</span><p>LinkedIn, Notion</p>
+      <span class="label">Key Metrics:</span><p>Blended ARPU, upsell rate, retention</p>
+      <span class="label">Use Case:</span><p>Blended models with multiple revenue streams</p>
     </div>
-    
-    <div class="card">
-        <h2>Hybrid Models</h2>
-        <div class="tag">Both</div>
-        <p><span class="label">Description:</span> Combining two or more business models</p>
-        <p><span class="label">Revenue Source:</span> Mixed—subscriptions, ads, usage fees, etc.</p>
-        <p><span class="label">Key Metrics:</span> Blended ARPU, upsell rate, retention</p>
-        <p><span class="label">Use Case:</span> Blended models with multiple revenue streams</p>
-        <p><span class="label">Examples:</span> LinkedIn, Notion</p>
-    </div>
-    
+  </div> <!-- End #original-cards -->
+
+  <div class="slideshow">
+    <div class="slideshow-inner" id="slideshow-inner"></div>
+  </div>
+
+  <div class="nav prev" onclick="navigate(-1)">❮</div>
+  <div class="nav next" onclick="navigate(1)">❯</div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('#original-cards .card');
+      const slideshowInner = document.getElementById('slideshow-inner');
+
+      cards.forEach(card => {
+        const slide = document.createElement('div');
+        slide.className = 'slide';
+        slide.appendChild(card.cloneNode(true));
+        slideshowInner.appendChild(slide);
+      });
+
+      let currentSlide = 0;
+      const totalSlides = cards.length;
+
+      const updateSlide = () => {
+        slideshowInner.style.transform = `translateX(-${currentSlide * 100}vw)`;
+      };
+
+      window.navigate = (dir) => {
+        currentSlide = (currentSlide + dir + totalSlides) % totalSlides;
+        updateSlide();
+      };
+
+      let startX = 0;
+      slideshowInner.addEventListener('touchstart', e => startX = e.touches[0].clientX);
+      slideshowInner.addEventListener('touchend', e => {
+        const dx = e.changedTouches[0].clientX - startX;
+        if (dx > 50) navigate(-1);
+        else if (dx < -50) navigate(1);
+      });
+
+      updateSlide();
+    });
+  </script>
 </body>
 </html>
