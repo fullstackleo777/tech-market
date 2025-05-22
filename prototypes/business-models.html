@@ -59,10 +59,39 @@
     }
     .prev { left: 0; }
     .next { right: 0; }
+
+    body.dark-mode {
+      background: #111;
+      color: #ddd;
+    }
+    .card {
+      background: #1e1e1e;
+      color: #ddd;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    }
+    .nav {
+      color: #ddd;
+    }
+    .dark-toggle {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      z-index: 20;
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
+  <button class="dark-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
   <div id="original-cards" style="display: none;">
+
     <div class="card">
       <h2>Software as a Service (SaaS)</h2>
       <div class="tag">Business Model</div>
@@ -282,7 +311,7 @@
       <span class="label">Key Metrics:</span><p>Blended ARPU, upsell rate, retention</p>
       <span class="label">Use Case:</span><p>Blended models with multiple revenue streams</p>
     </div>
-  </div> <!-- End #original-cards -->
+  </div>
 
   <div class="slideshow">
     <div class="slideshow-inner" id="slideshow-inner"></div>
@@ -292,7 +321,17 @@
   <div class="nav next" onclick="navigate(1)">❯</div>
 
   <script>
+    const toggleDarkMode = () => {
+      const isDark = document.body.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', isDark);
+    };
+
     document.addEventListener('DOMContentLoaded', () => {
+      const saved = localStorage.getItem('darkMode');
+      if (saved === null || saved === 'true') {
+        document.body.classList.add('dark-mode');
+      }
+
       const cards = document.querySelectorAll('#original-cards .card');
       const slideshowInner = document.getElementById('slideshow-inner');
 
@@ -328,3 +367,4 @@
   </script>
 </body>
 </html>
+
